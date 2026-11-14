@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en" style="background:#0a0b0e">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>Zixtaro - licence</title>
+    <!-- A short address for a host that serves files only: it sends the reader to the app's real one
+         (src/lib/nav.ts PATHS does the same where any path is answered with the app). -->
+    <script>
+      location.replace(new URL(location.pathname.endsWith('/') ? '../' : './', location.href).href + '?page=legal&tab=licence' + location.hash)
+    </script>
+    <noscript><meta http-equiv="refresh" content="0; url=../?page=legal&tab=licence" /></noscript>
+  </head>
+  <body style="margin:0;background:#0a0b0e;color:#ece8e0;font:16px/1.5 system-ui,sans-serif">
+    <p style="padding:2rem"><a href="../?page=legal&tab=licence" style="color:#c9b07a">Zixtaro - licence</a></p>
+  </body>
+</html>

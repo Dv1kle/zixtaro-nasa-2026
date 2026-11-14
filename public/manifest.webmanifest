@@ -1,0 +1,15 @@
+{
+  "name": "Zixtaro — from orbit to root zone",
+  "short_name": "Zixtaro",
+  "description": "Pick any field or greenhouse on Earth: 45 years of NASA climate data and the soil beneath it, turned into a plan that adapts.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0a0b0e",
+  "theme_color": "#0a0b0e",
+  "icons": [
+    { "src": "zixtaro.svg", "type": "image/svg+xml", "sizes": "any" },
+    { "src": "icon-192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "icon-512.png", "type": "image/png", "sizes": "512x512" },
+    { "src": "icon-maskable-512.png", "type": "image/png", "sizes": "512x512", "purpose": "maskable" }
+  ]
+}
