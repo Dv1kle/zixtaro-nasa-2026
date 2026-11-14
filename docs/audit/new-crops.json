@@ -1,0 +1,2351 @@
+{
+ "sesame": {
+  "latin": "Sesamum indicum",
+  "family": "pedaliaceae",
+  "group": "oilseed",
+  "fao": {
+   "sow": [
+    6,
+    1
+   ],
+   "days": [
+    20,
+    30,
+    40,
+    20
+   ],
+   "kc": [
+    0.35,
+    1.1,
+    0.25
+   ]
+  },
+  "rootDepth": 1.5,
+  "p": 0.6,
+  "ky": 0.9,
+  "kyAssumed": true,
+  "heatMonthOffset": 2,
+  "tMax": 36,
+  "tCrit": 40,
+  "minSowT": 18,
+  "frostTender": true,
+  "nFix": 0,
+  "nDemand": 60,
+  "carbon": 0.3,
+  "nResidual": 30,
+  "coverGap": 0.5,
+  "minBreak": 3,
+  "maxRun": 1,
+  "diseases": [
+   "Fusarium wilt",
+   "Phytophthora blight",
+   "Macrophomina charcoal rot"
+  ],
+  "econ": {
+   "yield": 1.2,
+   "price": 1500,
+   "cost": 700
+  },
+  "gaez": {
+   "phGroup": {
+    "reuse": "Sunflower"
+   },
+   "textureGroup": {
+    "reuse": "Sunflower"
+   },
+   "heat": {
+    "reuse": "Cowpea"
+   }
+  },
+  "faostat": {
+   "itemCode": 289,
+   "itemName": "Sesame seed"
+  },
+  "cropgridsLayers": [
+   "sesame"
+  ],
+  "contract": true,
+  "perishableDays": null,
+  "residue": {
+   "dry": 0.94,
+   "slope": 1.09,
+   "intercept": 0.88,
+   "rbg": 0.22,
+   "ref": "IPCC 2006 generic 'Grains' class used as proxy (assumed)"
+  },
+  "sources": {
+   "latin/family/group": "taxonomy, standard",
+   "fao.sow": "FAO-56 Table 11 (fetched fao.org/3/x0490e/x0490e0b.htm), Sesame row: 20/30/40/20 = 110 d, June, China (sowing date taken from the row)",
+   "fao.days": "FAO-56 Table 11 (fetched fao.org/3/x0490e/x0490e0b.htm), Sesame row, China",
+   "fao.kc": "FAO-56 Table 12 (fetched), Oil crops group Kc ini 0.35; Sesame Kc mid 1.10, Kc end 0.25",
+   "rootDepth": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Sesame 1.0-1.5 m (upper)",
+   "p": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Sesame p 0.60",
+   "ky": "assumed: not tabulated in FAO-33/FAO-66 for sesame; 0.9 as typical oilseed value",
+   "heatMonthOffset": "assumed: flowering starts around day 50 (end of development stage), ~2 months",
+   "tMax": "assumed: sesame optimum 25-35 C (ECOCROP), mean Tmax limit set 1 C above",
+   "tCrit": "assumed: extension/review literature report capsule/flower loss above ~40 C; not re-verified",
+   "minSowT": "assumed: ECOCROP/extension: sow into soil >= 18-20 C",
+   "frostTender": "sesame is killed by frost (ECOCROP)",
+   "nFix": "assumed: non-legume",
+   "nDemand": "assumed: extension ranges 40-80 kg N/ha",
+   "carbon": "assumed: proxy 'grains' residue class; stalks are woody",
+   "nResidual": "assumed: by analogy with sunflower/linseed 35-40, slightly lower",
+   "coverGap": "assumed: slow canopy closure, 6 weeks of open soil",
+   "minBreak/maxRun": "assumed: soil-borne Fusarium wilt/Phytophthora blight, extension rule of 3 years",
+   "diseases": "extension/peer-reviewed literature, general knowledge (no single citation)",
+   "econ.yield": "assumed: attainable under good management 1.0-1.5 t/ha; world average ~0.5 t/ha (FAOSTAT, not re-pulled)",
+   "econ.price": "assumed: EU/US import unit values 1400-1800 EUR/t, no EU/US farm-gate series; not re-verified",
+   "econ.cost": "assumed: input + harvest labour estimate",
+   "gaez": "GAEZ v4 has no group for this crop; existing group reused as agronomic proxy (oil-seed crop with similar acid/alkaline tolerance; heat rows of cowpea 80-120 d, tmin 10)",
+   "faostat": "FAOSTAT QCL item code recalled from memory, not re-verified live (verify before use)",
+   "cropgridsLayers": "layer name as supplied in the brief",
+   "contract": "assumed: seed buyer/crusher contract; shatter-resistant cultivar logistics",
+   "perishableDays": "n/a (not a perishable vegetable)",
+   "residue": "IPCC 2006 generic 'Grains' class used as proxy (assumed)"
+  }
+ },
+ "pigeonpea": {
+  "latin": "Cajanus cajan",
+  "family": "fabaceae",
+  "group": "legume",
+  "fao": {
+   "sow": [
+    5,
+    20
+   ],
+   "days": [
+    25,
+    45,
+    60,
+    40
+   ],
+   "kc": [
+    0.4,
+    1.15,
+    0.35
+   ]
+  },
+  "rootDepth": 1.0,
+  "p": 0.45,
+  "ky": 0.9,
+  "kyAssumed": true,
+  "heatMonthOffset": 3,
+  "tMax": 35,
+  "tCrit": 35,
+  "minSowT": 18,
+  "frostTender": true,
+  "nFix": 40,
+  "nDemand": 20,
+  "carbon": 0.35,
+  "nResidual": 60,
+  "coverGap": 0.4,
+  "minBreak": 2,
+  "maxRun": 1,
+  "diseases": [
+   "Fusarium wilt",
+   "sterility mosaic virus",
+   "Phytophthora blight"
+  ],
+  "econ": {
+   "yield": 1.5,
+   "price": 600,
+   "cost": 500
+  },
+  "gaez": {
+   "phGroup": {
+    "reuse": "Pigeonpea"
+   },
+   "textureGroup": {
+    "reuse": "Pigeonpea"
+   },
+   "heat": {
+    "reuse": "Cowpea"
+   }
+  },
+  "faostat": {
+   "itemCode": 197,
+   "itemName": "Pigeon peas, dry"
+  },
+  "cropgridsLayers": [
+   "pigeonpea"
+  ],
+  "contract": false,
+  "perishableDays": null,
+  "note": "does not mature in Central Europe; tropics/subtropics only",
+  "residue": {
+   "dry": 0.91,
+   "slope": 0.36,
+   "intercept": 0.68,
+   "rbg": 0.19,
+   "ref": "IPCC 2006 'Beans & pulses' class (same as repo PULSES)"
+  },
+  "sources": {
+   "latin/family/group": "taxonomy, standard",
+   "fao.sow": "assumed: tropical sowing; Central Europe too cool - reference taken as cowpea date",
+   "fao.days": "assumed: not in FAO-56 Table 11; medium-duration cultivar 150-180 d (ICRISAT), 170 d",
+   "fao.kc": "FAO-56 Table 12 (fetched), Beans, dry and Pulses (legume group Kc ini 0.4; mid 1.15; end 0.35) used as analogue",
+   "rootDepth": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Green Gram and Cowpeas 0.6-1.0 m (upper), analogue; true rooting deeper",
+   "p": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Green Gram and Cowpeas p 0.45, analogue",
+   "ky": "assumed: not tabulated; drought-tolerant pulse",
+   "heatMonthOffset": "assumed: flowering ~90-100 d after sowing in medium cultivars",
+   "tMax": "assumed: literature: pod set falls above ~35 C",
+   "tCrit": "assumed: analogue to cowpea 35 (existing T_CRIT)",
+   "minSowT": "assumed: ECOCROP: min germination temp ~15-18",
+   "frostTender": "killed by frost",
+   "nFix": "assumed: literature range 20-70 kg N/ha net benefit; ICRISAT figure recalled",
+   "nDemand": "assumed: starter N only",
+   "carbon": "assumed: woody stalks, deep roots",
+   "nResidual": "assumed: same as cowpea/drybean 60 in N_RESIDUAL",
+   "coverGap": "assumed: slow early growth",
+   "minBreak/maxRun": "assumed: Fusarium wilt/Phytophthora; rotation 2 y",
+   "diseases": "extension/peer-reviewed literature, general knowledge (no single citation)",
+   "econ.yield": "assumed: rainfed 0.8-1.0 t/ha; 1.5-2 t/ha attainable",
+   "econ.price": "assumed: India/Africa producer prices, not EU/US; FAOSTAT not re-pulled",
+   "econ.cost": "assumed: estimate",
+   "gaez": "GAEZ v4 has no group for this crop; existing group reused as agronomic proxy (GAEZ has pigeonpea pH and texture; heat rows of cowpea (120 d, tmin 10) as nearest legume)",
+   "faostat": "FAOSTAT QCL item code recalled from memory, not re-verified live (verify before use)",
+   "cropgridsLayers": "layer name as supplied in the brief",
+   "contract": "-",
+   "perishableDays": "n/a (not a perishable vegetable)",
+   "residue": "IPCC 2006 'Beans & pulses' class (same as repo PULSES)"
+  }
+ },
+ "sugarcane": {
+  "latin": "Saccharum officinarum",
+  "family": "poaceae",
+  "group": "sugar",
+  "fao": {
+   "sow": [
+    2,
+    1
+   ],
+   "days": [
+    30,
+    90,
+    175,
+    70
+   ],
+   "kc": [
+    0.4,
+    1.25,
+    0.75
+   ]
+  },
+  "rootDepth": 2.0,
+  "p": 0.65,
+  "ky": 1.2,
+  "kyAssumed": false,
+  "heatMonthOffset": 6,
+  "tMax": 38,
+  "tCrit": null,
+  "minSowT": 18,
+  "frostTender": true,
+  "nFix": 0,
+  "nDemand": 150,
+  "carbon": 0.5,
+  "nResidual": 40,
+  "coverGap": 0.1,
+  "minBreak": 1,
+  "maxRun": 5,
+  "diseases": [
+   "ratoon stunting disease",
+   "smut",
+   "red rot",
+   "borers"
+  ],
+  "econ": {
+   "yield": 85,
+   "price": 35,
+   "cost": 2500
+  },
+  "gaez": {
+   "phGroup": {
+    "reuse": "Sugarcane"
+   },
+   "textureGroup": {
+    "reuse": "Sugarcane"
+   },
+   "heat": {
+    "reuse": "Sugarcane"
+   }
+  },
+  "faostat": {
+   "itemCode": 156,
+   "itemName": "Sugar cane"
+  },
+  "cropgridsLayers": [
+   "sugarcane"
+  ],
+  "contract": true,
+  "perishableDays": null,
+  "residue": {
+   "dry": 1,
+   "slope": 0.5,
+   "intercept": 0,
+   "rbg": 0.2,
+   "ref": "assumed (trash+stubble); IPCC 2006 Table 11.2 lacks sugarcane"
+  },
+  "sources": {
+   "latin/family/group": "taxonomy, standard",
+   "fao.sow": "assumed: ratoon crop restarts after harvest; Feb start for NH subtropics",
+   "fao.days": "assumed: Table 11 ratoon rows: Low lat 25/70/135/50=280, Tropics 35/105/210/70=420; scaled to 365 d to fit the 12-month occupancy",
+   "fao.kc": "FAO-56 Table 12 (fetched), k. Sugar Cane Kc ini 0.40, mid 1.25, end 0.75",
+   "rootDepth": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Sugar Cane 1.2-2.0 m (upper)",
+   "p": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Sugar Cane p 0.65",
+   "ky": "FAO-33 (Doorenbos & Kassam 1979) whole-season Ky, value NOT re-checked against the source table (sugarcane 1.20)",
+   "heatMonthOffset": "assumed: peak canopy/stem elongation ~ half-way through the 12 months",
+   "tMax": "assumed: optimum 25-33 C (ECOCROP); growth declines above ~35 C",
+   "tCrit": "null: sugarcane is harvested vegetatively, no flowering/fruit set stage matters",
+   "minSowT": "assumed: ECOCROP/extension: ratoon sprouting and growth slow below ~15-18 C",
+   "frostTender": "frost kills leaves; ratoon survives light frost, yield lost",
+   "nFix": "assumed: non-legume",
+   "nDemand": "assumed: extension ranges 100-200 kg N/ha, higher for ratoons",
+   "carbon": "assumed: trash blanket 8-15 t DM/ha plus stubble roots; assumed",
+   "nResidual": "assumed: assumed",
+   "coverGap": "assumed: perennial ratoon, year-round cover",
+   "minBreak/maxRun": "assumed: 1 plant cane + up to 4 ratoons in the same field; then replant",
+   "diseases": "extension/peer-reviewed literature, general knowledge (no single citation)",
+   "econ.yield": "assumed: world avg ~70-75 t/ha (FAOSTAT, not re-pulled); irrigated attainable 85-100",
+   "econ.price": "assumed: mill-gate cane price ~25-45 EUR/t; EU (Spain/Madeira) and US (Louisiana/Florida) tiny",
+   "econ.cost": "assumed: estimate incl. harvest, fertiliser; excludes planting stock amortised",
+   "gaez": "GAEZ v4 has no group for this crop; existing group reused as agronomic proxy (GAEZ has sugarcane in all three tables)",
+   "faostat": "FAOSTAT QCL item code recalled from memory, not re-verified live (verify before use)",
+   "cropgridsLayers": "layer name as supplied in the brief",
+   "contract": "assumed: mill contract; 12-month occupancy, cane must be hauled <~24 h",
+   "perishableDays": "n/a (not a perishable vegetable)",
+   "residue": "assumed (trash+stubble); IPCC 2006 Table 11.2 lacks sugarcane"
+  }
+ },
+ "yam": {
+  "latin": "Dioscorea spp. (D. rotundata, D. alata)",
+  "family": "dioscoreaceae",
+  "group": "root",
+  "fao": {
+   "sow": [
+    4,
+    15
+   ],
+   "days": [
+    30,
+    60,
+    120,
+    60
+   ],
+   "kc": [
+    0.4,
+    1.1,
+    0.5
+   ]
+  },
+  "rootDepth": 1.0,
+  "p": 0.4,
+  "ky": 0.9,
+  "kyAssumed": true,
+  "heatMonthOffset": 4,
+  "tMax": 35,
+  "tCrit": null,
+  "minSowT": 20,
+  "frostTender": true,
+  "nFix": 0,
+  "nDemand": 80,
+  "carbon": 0.25,
+  "nResidual": 40,
+  "coverGap": 0.5,
+  "minBreak": 3,
+  "maxRun": 1,
+  "diseases": [
+   "anthracnose",
+   "yam mosaic virus",
+   "nematodes",
+   "tuber rots"
+  ],
+  "econ": {
+   "yield": 20,
+   "price": 400,
+   "cost": 2500
+  },
+  "gaez": {
+   "phGroup": {
+    "reuse": "Sweet Potato"
+   },
+   "textureGroup": {
+    "reuse": "Sweet Potato"
+   },
+   "heat": {
+    "reuse": "Sweet potato"
+   }
+  },
+  "faostat": {
+   "itemCode": 137,
+   "itemName": "Yams"
+  },
+  "cropgridsLayers": [
+   "yam"
+  ],
+  "contract": false,
+  "perishableDays": null,
+  "gddNeed_note": "consider degree-day rule (gddNeed ~1800-2200 base 10 C, assumed) as for cassava",
+  "residue": {
+   "dry": 0.22,
+   "slope": 0.1,
+   "intercept": 1.06,
+   "rbg": 0.2,
+   "ref": "IPCC 2006 'Tubers' class proxy (same as repo TUBERS)"
+  },
+  "sources": {
+   "latin/family/group": "taxonomy, standard",
+   "fao.sow": "assumed: tropical rains; reference = cassava date in repo",
+   "fao.days": "assumed: not in FAO-56 Table 11; yam cycle 7-10 months, 270 d",
+   "fao.kc": "assumed: not in FAO-56 Table 12; analogue Cassava year 2 (Kc ini 0.3, mid 1.10, end 0.50) with ini raised for staked yam",
+   "rootDepth": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Cassava year 2 0.7-1.0 m (upper), analogue",
+   "p": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Cassava year 2 p 0.40, analogue",
+   "ky": "assumed: not tabulated",
+   "heatMonthOffset": "assumed: tuber bulking half-way through the cycle",
+   "tMax": "assumed: optimum 25-30 C (ECOCROP)",
+   "tCrit": "null: tuber crop, no flowering-stage limit",
+   "minSowT": "assumed: tubers sprout poorly below ~20 C; extension",
+   "frostTender": "frost kills vines",
+   "nFix": "assumed: non-legume",
+   "nDemand": "assumed: extension 60-100 kg N/ha, often unfertilised",
+   "carbon": "assumed: vine residue only; tubers removed",
+   "nResidual": "assumed: by analogy with sweetpotato 40",
+   "coverGap": "assumed: slow canopy closure",
+   "minBreak/maxRun": "assumed: anthracnose and nematodes; 3+ year rotation",
+   "diseases": "extension/peer-reviewed literature, general knowledge (no single citation)",
+   "econ.yield": "assumed: FAOSTAT world avg ~9 t/ha (rainfed, not re-pulled); staked irrigated 20-25",
+   "econ.price": "assumed: West-Africa producer 250-400 USD/t; EU/US retail much higher; not re-verified",
+   "econ.cost": "assumed: estimate: seed-tuber and staking costs heavy",
+   "gaez": "GAEZ v4 has no group for this crop; existing group reused as agronomic proxy (root/tuber with similar pH and texture sensitivity; heat rows of sweet potato 150-165 d, tmin 10)",
+   "faostat": "FAOSTAT QCL item code recalled from memory, not re-verified live (verify before use)",
+   "cropgridsLayers": "layer name as supplied in the brief",
+   "contract": "-",
+   "perishableDays": "n/a (not a perishable vegetable)",
+   "residue": "IPCC 2006 'Tubers' class proxy (same as repo TUBERS)"
+  }
+ },
+ "tobacco": {
+  "latin": "Nicotiana tabacum",
+  "family": "solanaceae",
+  "group": "stimulant",
+  "fao": {
+   "sow": [
+    5,
+    10
+   ],
+   "days": [
+    25,
+    35,
+    40,
+    30
+   ],
+   "kc": [
+    0.6,
+    1.15,
+    0.8
+   ]
+  },
+  "rootDepth": 1.5,
+  "p": 0.4,
+  "ky": 0.9,
+  "kyAssumed": false,
+  "heatMonthOffset": 2,
+  "tMax": 35,
+  "tCrit": null,
+  "minSowT": 12,
+  "frostTender": true,
+  "nFix": 0,
+  "nDemand": 100,
+  "carbon": 0.3,
+  "nResidual": 40,
+  "coverGap": 0.5,
+  "minBreak": 3,
+  "maxRun": 1,
+  "diseases": [
+   "black root rot",
+   "blue mould",
+   "TMV",
+   "nematodes",
+   "bacterial wilt"
+  ],
+  "econ": {
+   "yield": 2.5,
+   "price": 3500,
+   "cost": 3500
+  },
+  "gaez": {
+   "phGroup": {
+    "reuse": "White Potato"
+   },
+   "textureGroup": {
+    "reuse": "White Potato"
+   },
+   "heat": {
+    "reuse": "White potato"
+   }
+  },
+  "faostat": {
+   "itemCode": 826,
+   "itemName": "Tobacco, unmanufactured"
+  },
+  "cropgridsLayers": [
+   "tobacco"
+  ],
+  "contract": true,
+  "perishableDays": null,
+  "advice": "legal and public-health considerations - include only if the product line is wanted",
+  "residue": {
+   "dry": 0.9,
+   "slope": 1.0,
+   "intercept": 0.8,
+   "rbg": 0.2,
+   "ref": "assumed (grain-like proxy)"
+  },
+  "sources": {
+   "latin/family/group": "taxonomy, standard",
+   "fao.sow": "assumed: transplant date after last frost",
+   "fao.days": "assumed: not in FAO-56 Table 11; 130 d from transplanting (FAO-33 growing-period range 130-160 d, recalled)",
+   "fao.kc": "FAO-56 Table 12 (fetched), b. Solanum Family group row (ini 0.6, mid 1.15, end 0.80) applied by analogy; tobacco has no own row",
+   "rootDepth": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Tomato 0.7-1.5 m (upper), analogue",
+   "p": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Tomato p 0.40, analogue",
+   "ky": "FAO-33 (Doorenbos & Kassam 1979) whole-season Ky, value NOT re-checked against the source table (tobacco 0.90)",
+   "heatMonthOffset": "assumed: rapid growth and topping ~ 60 d after transplanting",
+   "tMax": "assumed: leaf quality declines above ~35 C",
+   "tCrit": "null: leaf crop, flowers are topped off",
+   "minSowT": "assumed: extension: transplant into soil >= 12-15 C",
+   "frostTender": "frost kills transplants and leaves",
+   "nFix": "assumed: non-legume",
+   "nDemand": "assumed: extension: flue-cured 60-120, burley 150+ kg N/ha",
+   "carbon": "assumed: stalks and roots",
+   "nResidual": "assumed: assumed",
+   "coverGap": "assumed: open soil until 4-5 weeks after transplanting",
+   "minBreak/maxRun": "assumed: Solanaceae: black root rot, nematodes, TMV; shares hosts with potato/tomato",
+   "diseases": "extension/peer-reviewed literature, general knowledge (no single citation)",
+   "econ.yield": "assumed: cured leaf 2.0-3.0 t/ha in EU and US",
+   "econ.price": "assumed: EU raw-leaf contract prices ~3000-4500 EUR/t; US ~4000 USD/t; not re-verified",
+   "econ.cost": "assumed: estimate incl. curing and labour",
+   "gaez": "GAEZ v4 has no group for this crop; existing group reused as agronomic proxy (solanaceous leaf crop, similar acid-sensitivity; heat rows of white potato 120-150 d)",
+   "faostat": "FAOSTAT QCL item code recalled from memory, not re-verified live (verify before use)",
+   "cropgridsLayers": "layer name as supplied in the brief",
+   "contract": "assumed: sold only under processor/auction contract; EU CAP coupled-support history",
+   "perishableDays": "n/a (not a perishable vegetable)",
+   "residue": "assumed (grain-like proxy)"
+  }
+ },
+ "safflower": {
+  "latin": "Carthamus tinctorius",
+  "family": "asteraceae",
+  "group": "oilseed",
+  "fao": {
+   "sow": [
+    4,
+    1
+   ],
+   "days": [
+    20,
+    35,
+    45,
+    25
+   ],
+   "kc": [
+    0.35,
+    1.1,
+    0.25
+   ]
+  },
+  "rootDepth": 2.0,
+  "p": 0.6,
+  "ky": 0.8,
+  "kyAssumed": false,
+  "heatMonthOffset": 2,
+  "tMax": 35,
+  "tCrit": 36,
+  "minSowT": 5,
+  "frostTender": false,
+  "nFix": 0,
+  "nDemand": 70,
+  "carbon": 0.3,
+  "nResidual": 35,
+  "coverGap": 0.5,
+  "minBreak": 4,
+  "maxRun": 1,
+  "diseases": [
+   "Alternaria leaf spot",
+   "Sclerotinia",
+   "Fusarium wilt",
+   "Phytophthora root rot",
+   "rust"
+  ],
+  "econ": {
+   "yield": 2.2,
+   "price": 500,
+   "cost": 600
+  },
+  "gaez": {
+   "phGroup": {
+    "reuse": "Sunflower"
+   },
+   "textureGroup": {
+    "reuse": "Sunflower"
+   },
+   "heat": {
+    "reuse": "Sunflower"
+   }
+  },
+  "faostat": {
+   "itemCode": 280,
+   "itemName": "Safflower seed"
+  },
+  "cropgridsLayers": [
+   "safflower"
+  ],
+  "contract": true,
+  "perishableDays": null,
+  "residue": {
+   "dry": 0.92,
+   "slope": 1.09,
+   "intercept": 0.88,
+   "rbg": 0.22,
+   "ref": "IPCC 2006 generic 'Grains' proxy (assumed)"
+  },
+  "sources": {
+   "latin/family/group": "taxonomy, standard",
+   "fao.sow": "FAO-56 Table 11 (fetched fao.org/3/x0490e/x0490e0b.htm), Safflower row, April, California",
+   "fao.days": "FAO-56 Table 11 (fetched fao.org/3/x0490e/x0490e0b.htm), Safflower row 20/35/45/25 = 125 d, California",
+   "fao.kc": "FAO-56 Table 12 (fetched), Oil crops group ini 0.35; Safflower Kc mid 1.0-1.15 (range; midpoint rounded to 1.10), Kc end 0.25",
+   "rootDepth": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Safflower 1.0-2.0 m (upper)",
+   "p": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Safflower p 0.60",
+   "ky": "FAO-33 (Doorenbos & Kassam 1979) whole-season Ky, value NOT re-checked against the source table (safflower 0.80)",
+   "heatMonthOffset": "assumed: flowering after ~55-60 d (end of development stage)",
+   "tMax": "assumed: ECOCROP optimum 20-30 C; heat-tolerant, limit set at 35",
+   "tCrit": "assumed: literature: seed set impaired above ~35-38 C; not re-verified",
+   "minSowT": "assumed: seeds germinate at ~5 C; rosette tolerates frost",
+   "frostTender": "rosette stage hardy to about -7 C; frost matters only after stem elongation",
+   "nFix": "assumed: non-legume",
+   "nDemand": "assumed: extension 60-90 kg N/ha",
+   "carbon": "assumed: proxy 'grains' residue",
+   "nResidual": "assumed: by analogy with sunflower/linseed",
+   "coverGap": "assumed: slow rosette stage",
+   "minBreak/maxRun": "assumed: shares Sclerotinia/Alternaria with sunflower and rapeseed",
+   "diseases": "extension/peer-reviewed literature, general knowledge (no single citation)",
+   "econ.yield": "assumed: US avg ~1.5, irrigated 2.5-3 t/ha",
+   "econ.price": "assumed: US ~500-600 USD/t; EU none; not re-verified",
+   "econ.cost": "assumed: estimate",
+   "gaez": "GAEZ v4 has no group for this crop; existing group reused as agronomic proxy (same family (Asteraceae) and similar oilseed requirements; sunflower heat rows 105-150 d, tmin 5)",
+   "faostat": "FAOSTAT QCL item code recalled from memory, not re-verified live (verify before use)",
+   "cropgridsLayers": "layer name as supplied in the brief",
+   "contract": "assumed: small market: crusher/bird-seed contract",
+   "perishableDays": "n/a (not a perishable vegetable)",
+   "residue": "IPCC 2006 generic 'Grains' proxy (assumed)"
+  }
+ },
+ "castor": {
+  "latin": "Ricinus communis",
+  "family": "euphorbiaceae",
+  "group": "oilseed",
+  "fao": {
+   "sow": [
+    5,
+    1
+   ],
+   "days": [
+    25,
+    40,
+    65,
+    50
+   ],
+   "kc": [
+    0.35,
+    1.15,
+    0.55
+   ]
+  },
+  "rootDepth": 2.0,
+  "p": 0.5,
+  "ky": 0.9,
+  "kyAssumed": true,
+  "heatMonthOffset": 2,
+  "tMax": 36,
+  "tCrit": 38,
+  "minSowT": 15,
+  "frostTender": true,
+  "nFix": 0,
+  "nDemand": 80,
+  "carbon": 0.35,
+  "nResidual": 40,
+  "coverGap": 0.5,
+  "minBreak": 3,
+  "maxRun": 1,
+  "diseases": [
+   "grey mould (Amphobotrys)",
+   "Fusarium wilt",
+   "Alternaria"
+  ],
+  "econ": {
+   "yield": 2.0,
+   "price": 550,
+   "cost": 600
+  },
+  "gaez": {
+   "phGroup": {
+    "reuse": "Sunflower"
+   },
+   "textureGroup": {
+    "reuse": "Sunflower"
+   },
+   "heat": {
+    "reuse": "Cowpea"
+   }
+  },
+  "faostat": {
+   "itemCode": 265,
+   "itemName": "Castor oil seeds"
+  },
+  "cropgridsLayers": [
+   "castor"
+  ],
+  "contract": true,
+  "perishableDays": null,
+  "advice": "ricin: toxic seed, handling/legal restrictions in EU and US states - recommend NOT adding to a default farmer menu",
+  "residue": {
+   "dry": 0.92,
+   "slope": 1.09,
+   "intercept": 0.88,
+   "rbg": 0.22,
+   "ref": "IPCC 2006 generic 'Grains' proxy (assumed)"
+  },
+  "sources": {
+   "latin/family/group": "taxonomy, standard",
+   "fao.sow": "assumed: Table 11 gives March for semi-arid climates; temperate NH planted May",
+   "fao.days": "FAO-56 Table 11 (fetched fao.org/3/x0490e/x0490e0b.htm), Castor beans row 25/40/65/50 = 180 d, March, (Semi) arid climates",
+   "fao.kc": "FAO-56 Table 12 (fetched), Oil crops group ini 0.35; Castorbean Kc mid 1.15, Kc end 0.55",
+   "rootDepth": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Castorbean (Ricinus) 1.0-2.0 m (upper)",
+   "p": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Castorbean p 0.50",
+   "ky": "assumed: not tabulated for castor",
+   "heatMonthOffset": "assumed: raceme initiation/flowering ~60-65 d",
+   "tMax": "assumed: optimum 20-30 C (ECOCROP)",
+   "tCrit": "assumed: literature: female flower loss above ~38 C; not re-verified",
+   "minSowT": "assumed: ECOCROP min germination temperature",
+   "frostTender": "frost-sensitive (killed by light frost)",
+   "nFix": "assumed: non-legume",
+   "nDemand": "assumed: extension 60-100 kg N/ha",
+   "carbon": "assumed: large stalks and roots",
+   "nResidual": "assumed: assumed",
+   "coverGap": "assumed: slow early growth",
+   "minBreak/maxRun": "assumed: grey mould and Fusarium wilt; 3-year rotation",
+   "diseases": "extension/peer-reviewed literature, general knowledge (no single citation)",
+   "econ.yield": "assumed: world avg ~1.1 t/ha (FAOSTAT, not re-pulled); irrigated 2.5-3",
+   "econ.price": "assumed: India producer ~600 USD/t; EU/US none; not re-verified",
+   "econ.cost": "assumed: estimate",
+   "gaez": "GAEZ v4 has no group for this crop; existing group reused as agronomic proxy (warm-season oilseed, acid-sensitive; heat rows of cowpea 100-120 d)",
+   "faostat": "FAOSTAT QCL item code recalled from memory, not re-verified live (verify before use)",
+   "cropgridsLayers": "layer name as supplied in the brief",
+   "contract": "assumed: industrial (oleochemical) contract only",
+   "perishableDays": "n/a (not a perishable vegetable)",
+   "residue": "IPCC 2006 generic 'Grains' proxy (assumed)"
+  }
+ },
+ "jute": {
+  "latin": "Corchorus olitorius / C. capsularis",
+  "family": "malvaceae",
+  "group": "fibre",
+  "fao": {
+   "sow": [
+    5,
+    1
+   ],
+   "days": [
+    20,
+    30,
+    50,
+    20
+   ],
+   "kc": [
+    0.35,
+    1.1,
+    0.85
+   ]
+  },
+  "rootDepth": 1.5,
+  "p": 0.5,
+  "ky": 0.9,
+  "kyAssumed": true,
+  "heatMonthOffset": 2,
+  "tMax": 36,
+  "tCrit": null,
+  "minSowT": 18,
+  "frostTender": true,
+  "nFix": 0,
+  "nDemand": 60,
+  "carbon": 0.3,
+  "nResidual": 35,
+  "coverGap": 0.5,
+  "minBreak": 2,
+  "maxRun": 1,
+  "diseases": [
+   "stem rot",
+   "anthracnose",
+   "nematodes"
+  ],
+  "econ": {
+   "yield": 3.0,
+   "price": 700,
+   "cost": 800
+  },
+  "gaez": {
+   "phGroup": {
+    "reuse": "Cotton"
+   },
+   "textureGroup": {
+    "reuse": "Cotton"
+   },
+   "heat": {
+    "reuse": "Cowpea"
+   }
+  },
+  "faostat": {
+   "itemCode": 780,
+   "itemName": "Jute, raw or retted"
+  },
+  "cropgridsLayers": [
+   "jute"
+  ],
+  "contract": true,
+  "perishableDays": null,
+  "advice": "NOT recommended for EU/US fields: needs 2-3 weeks of ponded retting water and a jute mill within reach; no market",
+  "residue": {
+   "dry": 0.9,
+   "slope": 1.0,
+   "intercept": 0.5,
+   "rbg": 0.2,
+   "ref": "assumed (fibre stems removed, leaves+roots stay)"
+  },
+  "sources": {
+   "latin/family/group": "taxonomy, standard",
+   "fao.sow": "assumed: warm, wet season; reference NH sowing",
+   "fao.days": "assumed: not in FAO-56 Table 11; 120-day cycle (BJRI/Indian extension)",
+   "fao.kc": "assumed: not in FAO-56 Table 12; fibre group ini 0.35, mid analogue Flax 1.10, end 0.85 (harvest green at small-pod stage)",
+   "rootDepth": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Flax 1.0-1.5 m (upper), analogue",
+   "p": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Flax p 0.50, analogue",
+   "ky": "assumed: not tabulated",
+   "heatMonthOffset": "assumed: peak vegetative growth ~ day 50-60",
+   "tMax": "assumed: optimum 24-37 C (ECOCROP)",
+   "tCrit": "null: harvested before seed set",
+   "minSowT": "assumed: ECOCROP/extension: germinates poorly below ~18 C",
+   "frostTender": "frost-sensitive",
+   "nFix": "assumed: non-legume",
+   "nDemand": "assumed: extension 40-80 kg N/ha",
+   "carbon": "assumed: fallen leaves and roots, stems retted off-field",
+   "nResidual": "assumed: assumed",
+   "coverGap": "assumed: fast canopy",
+   "minBreak/maxRun": "assumed: stem rot (Macrophomina), root knot nematode",
+   "diseases": "extension/peer-reviewed literature, general knowledge (no single citation)",
+   "econ.yield": "assumed: India/Bangladesh avg ~2.2-2.5 t/ha dry fibre (FAOSTAT, not re-pulled)",
+   "econ.price": "assumed: India producer ~600-750 USD/t; not re-verified",
+   "econ.cost": "assumed: estimate; retting labour excluded",
+   "gaez": "GAEZ v4 has no group for this crop; existing group reused as agronomic proxy (fibre crop of warm humid lowlands; heat rows of cowpea 120 d, tmin 10)",
+   "faostat": "FAOSTAT QCL item code recalled from memory, not re-verified live (verify before use)",
+   "cropgridsLayers": "layer name as supplied in the brief",
+   "contract": "assumed: mill contract; needs retting water",
+   "perishableDays": "n/a (not a perishable vegetable)",
+   "residue": "assumed (fibre stems removed, leaves+roots stay)"
+  }
+ },
+ "fonio": {
+  "latin": "Digitaria exilis",
+  "family": "poaceae",
+  "group": "c4-cereal",
+  "fao": {
+   "sow": [
+    5,
+    25
+   ],
+   "days": [
+    15,
+    25,
+    40,
+    25
+   ],
+   "kc": [
+    0.3,
+    1.0,
+    0.3
+   ]
+  },
+  "rootDepth": 1.0,
+  "p": 0.55,
+  "ky": 0.8,
+  "kyAssumed": true,
+  "heatMonthOffset": 2,
+  "tMax": 36,
+  "tCrit": 38,
+  "minSowT": 15,
+  "frostTender": true,
+  "nFix": 0,
+  "nDemand": 40,
+  "carbon": 0.3,
+  "nResidual": 30,
+  "coverGap": 0.5,
+  "minBreak": 0,
+  "maxRun": 2,
+  "diseases": [
+   "head smut",
+   "leaf spots"
+  ],
+  "econ": {
+   "yield": 0.8,
+   "price": 500,
+   "cost": 350
+  },
+  "gaez": {
+   "phGroup": {
+    "reuse": "Pearl Millet"
+   },
+   "textureGroup": {
+    "reuse": "Pearl Millet"
+   },
+   "heat": {
+    "reuse": "Pearl millet"
+   }
+  },
+  "faostat": {
+   "itemCode": 94,
+   "itemName": "Fonio"
+  },
+  "cropgridsLayers": [
+   "fonio"
+  ],
+  "contract": true,
+  "perishableDays": null,
+  "advice": "data thin (no GAEZ/FAO-56 entry, no Ky); keep for West-Africa sites only, confidence low",
+  "residue": {
+   "dry": 0.9,
+   "slope": 1.43,
+   "intercept": 0.14,
+   "rbg": 0.22,
+   "ref": "IPCC 2006 'Millet' class proxy (same as repo pearlmillet)"
+  },
+  "sources": {
+   "latin/family/group": "taxonomy, standard",
+   "fao.sow": "assumed: sown at start of rains; reference May",
+   "fao.days": "FAO-56 Table 11 (fetched fao.org/3/x0490e/x0490e0b.htm), Millet row 15/25/40/25 = 105 d, June, Pakistan (analogue; fonio 90-120 d per extension)",
+   "fao.kc": "FAO-56 Table 12 (fetched), Millet Kc ini 0.30, mid 1.00, end 0.30 (analogue)",
+   "rootDepth": "assumed: fonio is shallow fibrous-rooted; Table 22 millet upper value 2.0 m judged too deep",
+   "p": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Millet p 0.55, analogue",
+   "ky": "assumed: same as repo millet/pearlmillet assumed 0.8; drought-tolerant",
+   "heatMonthOffset": "assumed: flowering ~day 45-50",
+   "tMax": "assumed: analogue pearlmillet heat tMax 36 in repo",
+   "tCrit": "assumed: analogue pearlmillet 38 (repo T_CRIT, itself an analogue)",
+   "minSowT": "assumed: analogue pearlmillet 15 (repo MIN_SOW_T)",
+   "frostTender": "frost-sensitive",
+   "nFix": "assumed: non-legume",
+   "nDemand": "assumed: extension 30-60 kg N/ha on poor soils",
+   "carbon": "assumed: small residue",
+   "nResidual": "assumed: by analogy with millet 35",
+   "coverGap": "assumed: slow early growth",
+   "minBreak/maxRun": "assumed: cereal; no specific disease constraint known",
+   "diseases": "extension/peer-reviewed literature, general knowledge (no single citation)",
+   "econ.yield": "assumed: West Africa 0.6-0.9 t/ha; attainable 1.2",
+   "econ.price": "assumed: speciality grain, local 400-600 USD/t, organic EU imports far higher; not re-verified",
+   "econ.cost": "assumed: estimate",
+   "gaez": "GAEZ v4 has no group for this crop; existing group reused as agronomic proxy (same Poaceae C4 millet-type cereal; heat rows 70-90 d, tmin 15)",
+   "faostat": "FAOSTAT QCL item code recalled from memory, not re-verified live (verify before use)",
+   "cropgridsLayers": "layer name as supplied in the brief",
+   "contract": "assumed: niche market; no commodity price",
+   "perishableDays": "n/a (not a perishable vegetable)",
+   "residue": "IPCC 2006 'Millet' class proxy (same as repo pearlmillet)"
+  }
+ },
+ "quinoa": {
+  "latin": "Chenopodium quinoa",
+  "family": "amaranthaceae",
+  "group": "pseudo-cereal",
+  "fao": {
+   "sow": [
+    4,
+    25
+   ],
+   "days": [
+    15,
+    25,
+    50,
+    30
+   ],
+   "kc": [
+    0.3,
+    1.0,
+    0.4
+   ]
+  },
+  "rootDepth": 1.5,
+  "p": 0.55,
+  "ky": 0.8,
+  "kyAssumed": true,
+  "heatMonthOffset": 2,
+  "tMax": 30,
+  "tCrit": 35,
+  "minSowT": 6,
+  "frostTender": false,
+  "nFix": 0,
+  "nDemand": 80,
+  "carbon": 0.3,
+  "nResidual": 35,
+  "coverGap": 0.5,
+  "minBreak": 3,
+  "maxRun": 1,
+  "diseases": [
+   "downy mildew (Peronospora variabilis)",
+   "leaf spots",
+   "birds"
+  ],
+  "econ": {
+   "yield": 2.0,
+   "price": 2500,
+   "cost": 900
+  },
+  "gaez": {
+   "phGroup": {
+    "reuse": "Buckwheat"
+   },
+   "textureGroup": {
+    "reuse": "Buckwheat"
+   },
+   "heat": {
+    "reuse": "Buckwheat"
+   }
+  },
+  "faostat": {
+   "itemCode": 92,
+   "itemName": "Quinoa"
+  },
+  "cropgridsLayers": [
+   "quinoa"
+  ],
+  "contract": true,
+  "perishableDays": null,
+  "residue": {
+   "dry": 0.89,
+   "slope": 1.09,
+   "intercept": 0.88,
+   "rbg": 0.22,
+   "ref": "IPCC 2006 generic 'Grains' proxy (as buckwheat in repo)"
+  },
+  "sources": {
+   "latin/family/group": "taxonomy, standard",
+   "fao.sow": "assumed: spring sowing temperate NH",
+   "fao.days": "FAO-56 Table 11 (fetched fao.org/3/x0490e/x0490e0b.htm), Barley/Oats/Wheat row 15/25/50/30 = 120 d used as analogue for a 120-130 d spring cereal-like crop; quinoa has no own row",
+   "fao.kc": "assumed: not in FAO-56 Table 12; cereal-like 0.30/1.00/0.40 (Table 12 small grains ini 0.30). Published quinoa Kc (Geerts et al. 2008) not checked",
+   "rootDepth": "assumed: Table 22 small-grain upper 1.0-1.5 m analogue",
+   "p": "assumed: Table 22 cereals p 0.55 analogue",
+   "ky": "assumed: quinoa-specific Ky from Geerts et al. 2009 recalled as 0.6-0.9; not verified",
+   "heatMonthOffset": "assumed: flowering ~ 55-65 d",
+   "tMax": "assumed: optimum 15-20 C; yield drop above ~30 C",
+   "tCrit": "assumed: Hinojosa et al. 2018/2019 pollen sterility above ~35 C; recalled, not re-verified",
+   "minSowT": "assumed: germinates from ~3-5 C; set 6",
+   "frostTender": "seedlings tolerate light frost; flowering stage sensitive",
+   "nFix": "assumed: non-legume",
+   "nDemand": "assumed: EU trials 60-100 kg N/ha",
+   "carbon": "assumed: small stover",
+   "nResidual": "assumed: by analogy with buckwheat 35",
+   "coverGap": "assumed: slow early growth",
+   "minBreak/maxRun": "assumed: Amaranthaceae: shares Heterodera/Cercospora with beet; downy mildew",
+   "diseases": "extension/peer-reviewed literature, general knowledge (no single citation)",
+   "econ.yield": "assumed: EU/Andes trials 1.5-3 t/ha; Bolivia avg ~0.7",
+   "econ.price": "assumed: EU organic grain ~2000-3500 EUR/t; not re-verified",
+   "econ.cost": "assumed: estimate",
+   "gaez": "GAEZ v4 has no group for this crop; existing group reused as agronomic proxy (pseudo-cereal of cool climates; buckwheat heat rows 75-90 d, tmin 5)",
+   "faostat": "FAOSTAT QCL item code recalled from memory, not re-verified live (verify before use)",
+   "cropgridsLayers": "layer name as supplied in the brief",
+   "contract": "assumed: premium food-chain contract needed; saponin removal",
+   "perishableDays": "n/a (not a perishable vegetable)",
+   "residue": "IPCC 2006 generic 'Grains' proxy (as buckwheat in repo)"
+  }
+ },
+ "taro": {
+  "latin": "Colocasia esculenta",
+  "family": "araceae",
+  "group": "root",
+  "fao": {
+   "sow": [
+    4,
+    25
+   ],
+   "days": [
+    30,
+    60,
+    120,
+    60
+   ],
+   "kc": [
+    0.6,
+    1.15,
+    0.9
+   ]
+  },
+  "rootDepth": 0.6,
+  "p": 0.3,
+  "ky": 1.1,
+  "kyAssumed": true,
+  "heatMonthOffset": 4,
+  "tMax": 33,
+  "tCrit": null,
+  "minSowT": 18,
+  "frostTender": true,
+  "nFix": 0,
+  "nDemand": 100,
+  "carbon": 0.25,
+  "nResidual": 40,
+  "coverGap": 0.5,
+  "minBreak": 3,
+  "maxRun": 1,
+  "diseases": [
+   "taro leaf blight",
+   "Pythium corm rot",
+   "dasheen mosaic virus"
+  ],
+  "econ": {
+   "yield": 20,
+   "price": 450,
+   "cost": 3000
+  },
+  "gaez": {
+   "phGroup": {
+    "reuse": "Sweet Potato"
+   },
+   "textureGroup": {
+    "reuse": "Sweet Potato"
+   },
+   "heat": null
+  },
+  "faostat": {
+   "itemCode": 136,
+   "itemName": "Taro"
+  },
+  "cropgridsLayers": [
+   "taro"
+  ],
+  "contract": false,
+  "perishableDays": null,
+  "gddNeed_note": "no GAEZ heat row; degree-day rule (gddNeed ~1800, base 10 C, assumed)",
+  "advice": "data thin: low confidence outside tropics",
+  "residue": {
+   "dry": 0.22,
+   "slope": 0.1,
+   "intercept": 1.06,
+   "rbg": 0.2,
+   "ref": "IPCC 2006 'Tubers' class proxy"
+  },
+  "sources": {
+   "latin/family/group": "taxonomy, standard",
+   "fao.sow": "assumed: tropical rains; reference April/May",
+   "fao.days": "assumed: not in FAO-56 Table 11; upland taro 6-9 months, 270 d",
+   "fao.kc": "assumed: not in FAO-56 Table 12; assumed from broad-leaved wet-loving crop: ini 0.6, mid 1.15, end 0.9",
+   "rootDepth": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Potato 0.4-0.6 m (upper), analogue for shallow tuber crop",
+   "p": "assumed: below potato 0.35: taro is water-loving",
+   "ky": "assumed: not tabulated; hygrophilous, high water sensitivity assumed",
+   "heatMonthOffset": "assumed: corm bulking after ~4 months",
+   "tMax": "assumed: optimum 21-27 C (ECOCROP)",
+   "tCrit": "null: corm crop",
+   "minSowT": "assumed: ECOCROP/extension: corms sprout above ~18-20 C",
+   "frostTender": "frost kills foliage",
+   "nFix": "assumed: non-legume",
+   "nDemand": "assumed: extension 80-120 kg N/ha",
+   "carbon": "assumed: leaf residue only",
+   "nResidual": "assumed: assumed",
+   "coverGap": "assumed: slow early growth",
+   "minBreak/maxRun": "assumed: taro leaf blight (Phytophthora colocasiae) and Pythium rots",
+   "diseases": "extension/peer-reviewed literature, general knowledge (no single citation)",
+   "econ.yield": "assumed: world avg ~6.5 t/ha (FAOSTAT, not re-pulled); irrigated 20-30",
+   "econ.price": "assumed: Hawaii/US ~1000 USD/t, W-Africa 200-400; not re-verified",
+   "econ.cost": "assumed: estimate: planting-material heavy",
+   "gaez": "GAEZ v4 has no group for this crop; existing group reused as agronomic proxy (root crop of humid tropics; no GAEZ heat row, use degree-day rule)",
+   "faostat": "FAOSTAT QCL item code recalled from memory, not re-verified live (verify before use)",
+   "cropgridsLayers": "layer name as supplied in the brief",
+   "contract": "-",
+   "perishableDays": "n/a (not a perishable vegetable)",
+   "residue": "IPCC 2006 'Tubers' class proxy"
+  }
+ },
+ "bambara": {
+  "latin": "Vigna subterranea",
+  "family": "fabaceae",
+  "group": "legume",
+  "fao": {
+   "sow": [
+    5,
+    15
+   ],
+   "days": [
+    35,
+    45,
+    35,
+    25
+   ],
+   "kc": [
+    0.4,
+    1.15,
+    0.6
+   ]
+  },
+  "rootDepth": 1.0,
+  "p": 0.5,
+  "ky": 0.7,
+  "kyAssumed": true,
+  "heatMonthOffset": 2,
+  "tMax": 35,
+  "tCrit": 38,
+  "minSowT": 18,
+  "frostTender": true,
+  "nFix": 30,
+  "nDemand": 20,
+  "carbon": 0.3,
+  "nResidual": 60,
+  "coverGap": 0.5,
+  "minBreak": 2,
+  "maxRun": 1,
+  "diseases": [
+   "Cercospora leaf spot",
+   "Fusarium wilt",
+   "Sclerotium rot"
+  ],
+  "econ": {
+   "yield": 1.5,
+   "price": 800,
+   "cost": 500
+  },
+  "gaez": {
+   "phGroup": {
+    "reuse": "Groundnut"
+   },
+   "textureGroup": {
+    "reuse": "Groundnut"
+   },
+   "heat": {
+    "reuse": "Groundnut"
+   }
+  },
+  "faostat": {
+   "itemCode": 203,
+   "itemName": "Bambara beans, dry"
+  },
+  "cropgridsLayers": [
+   "bambara"
+  ],
+  "contract": true,
+  "perishableDays": null,
+  "advice": "data thin: keep, low confidence",
+  "residue": {
+   "dry": 0.94,
+   "slope": 1.07,
+   "intercept": 1.54,
+   "rbg": 0.2,
+   "ref": "IPCC 2006 'Peanut with pod' class as analogue (as repo groundnut)"
+  },
+  "sources": {
+   "latin/family/group": "taxonomy, standard",
+   "fao.sow": "assumed: tropical rains; reference = groundnut date in repo",
+   "fao.days": "assumed: not in FAO-56 Table 11; groundnut row used as analogue (Bambara 110-150 d)",
+   "fao.kc": "FAO-56 Table 12 (fetched), Groundnut (Peanut) Kc ini 0.4, mid 1.15, end 0.60 as analogue",
+   "rootDepth": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Groundnut 0.5-1.0 m (upper), analogue",
+   "p": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Groundnut p 0.50, analogue",
+   "ky": "assumed: FAO-33 groundnut 0.70 used as analogue (Bambara is drought-tolerant)",
+   "heatMonthOffset": "assumed: flowering ~35-45 d",
+   "tMax": "assumed: optimum 20-28 C (ECOCROP)",
+   "tCrit": "assumed: analogue to groundnut 39 (Hatfield et al. 2011 in repo T_CRIT), 1 C lower",
+   "minSowT": "assumed: ECOCROP: soil >= 18 C, seeds rot in cold wet soil",
+   "frostTender": "frost kills",
+   "nFix": "assumed: fixation capacity reported higher; net 30 kept as for groundnut in repo",
+   "nDemand": "assumed: low; legume",
+   "carbon": "assumed: analogue groundnut",
+   "nResidual": "assumed: analogue groundnut 60 in N_RESIDUAL",
+   "coverGap": "assumed: moderate canopy",
+   "minBreak/maxRun": "assumed: Cercospora leaf spot, Fusarium wilt; 2-year break",
+   "diseases": "extension/peer-reviewed literature, general knowledge (no single citation)",
+   "econ.yield": "assumed: world avg ~0.5-0.7 t/ha (FAOSTAT, not re-pulled); attainable 1.5-2.5",
+   "econ.price": "assumed: local 600-1000 USD/t; no EU/US market series",
+   "econ.cost": "assumed: estimate",
+   "gaez": "GAEZ v4 has no group for this crop; existing group reused as agronomic proxy (same pod-setting underground legume; groundnut heat rows 90-120 d, tmin 10)",
+   "faostat": "FAOSTAT QCL item code recalled from memory, not re-verified live (verify before use)",
+   "cropgridsLayers": "layer name as supplied in the brief",
+   "contract": "assumed: niche food market, thin demand",
+   "perishableDays": "n/a (not a perishable vegetable)",
+   "residue": "IPCC 2006 'Peanut with pod' class as analogue (as repo groundnut)"
+  }
+ },
+ "vetch": {
+  "latin": "Vicia sativa",
+  "family": "fabaceae",
+  "group": "forage",
+  "fao": {
+   "sow": [
+    3,
+    25
+   ],
+   "days": [
+    20,
+    30,
+    40,
+    10
+   ],
+   "kc": [
+    0.4,
+    0.9,
+    0.85
+   ]
+  },
+  "rootDepth": 0.9,
+  "p": 0.5,
+  "ky": 1.1,
+  "kyAssumed": false,
+  "heatMonthOffset": 2,
+  "tMax": 28,
+  "tCrit": 30,
+  "minSowT": 4,
+  "frostTender": false,
+  "nFix": 60,
+  "nDemand": 0,
+  "carbon": 0.3,
+  "nResidual": 80,
+  "coverGap": 0.5,
+  "minBreak": 4,
+  "maxRun": 1,
+  "diseases": [
+   "Ascochyta",
+   "Aphanomyces root rot",
+   "Fusarium",
+   "pea rots"
+  ],
+  "econ": {
+   "yield": 5.0,
+   "price": 150,
+   "cost": 450
+  },
+  "gaez": {
+   "phGroup": {
+    "reuse": "Pasture Legume"
+   },
+   "textureGroup": {
+    "reuse": "Pasture Legume"
+   },
+   "heat": {
+    "reuse": "Dry pea"
+   }
+  },
+  "faostat": {
+   "itemCode": 205,
+   "itemName": "Vetches"
+  },
+  "cropgridsLayers": [
+   "vetch"
+  ],
+  "contract": true,
+  "perishableDays": null,
+  "residue": {
+   "dry": 1,
+   "slope": 0.3,
+   "intercept": 0,
+   "rbg": 0.4,
+   "ref": "IPCC 2006 'N-fixing forages' class (as repo clover)"
+  },
+  "sources": {
+   "latin/family/group": "taxonomy, standard",
+   "fao.sow": "assumed: spring sowing; autumn-sown winter vetch not covered",
+   "fao.days": "assumed: not in FAO-56 Table 11; 100 d to cut at pod set (assumed)",
+   "fao.kc": "FAO-56 Table 12 (fetched), Clover hay, Berseem averaged cutting effects: Kc ini 0.40, mid 0.90, end 0.85",
+   "rootDepth": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Clover hay, Berseem 0.6-0.9 m (upper), analogue",
+   "p": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Clover hay, Berseem p 0.50",
+   "ky": "FAO-33 alfalfa 1.1 used as analogue (recalled)",
+   "heatMonthOffset": "assumed: flowering/pod fill ~60 d",
+   "tMax": "assumed: cool-season legume; yield falls in hot summers",
+   "tCrit": "assumed: analogue to pea/faba/lupin 30 (repo T_CRIT)",
+   "minSowT": "assumed: analogue pea 4 (repo MIN_SOW_T)",
+   "frostTender": "hardy to about -10 C once established; spring sowing avoids kill",
+   "nFix": "assumed: green-manure/forage vetch 60-100 kg N/ha recalled; set conservative",
+   "nDemand": "assumed: legume",
+   "carbon": "assumed: cut forage; stubble+roots",
+   "nResidual": "assumed: analogue pea/faba 80",
+   "coverGap": "assumed: cut early",
+   "minBreak/maxRun": "assumed: shares Ascochyta/Aphanomyces/Fusarium with pea and faba - 4 y break",
+   "diseases": "extension/peer-reviewed literature, general knowledge (no single citation)",
+   "econ.yield": "assumed: extension 4-7 t DM/ha for spring vetch/cereal-vetch silage",
+   "econ.price": "assumed: equal to clover ley price in repo; forage",
+   "econ.cost": "assumed: estimate: seed 80 kg/ha dominant",
+   "gaez": "GAEZ v4 has no group for this crop; existing group reused as agronomic proxy (annual forage legume; heat rows of dry pea 90-120 d, tmin 5)",
+   "faostat": "FAOSTAT QCL item code recalled from memory, not re-verified live (verify before use)",
+   "cropgridsLayers": "layer name as supplied in the brief",
+   "contract": "assumed: livestock-farm contract",
+   "perishableDays": "n/a (not a perishable vegetable)",
+   "residue": "IPCC 2006 'N-fixing forages' class (as repo clover)"
+  }
+ },
+ "silagemaize": {
+  "latin": "Zea mays (whole plant)",
+  "family": "poaceae",
+  "group": "forage",
+  "fao": {
+   "sow": [
+    5,
+    1
+   ],
+   "days": [
+    30,
+    40,
+    50,
+    15
+   ],
+   "kc": [
+    0.3,
+    1.2,
+    0.6
+   ]
+  },
+  "rootDepth": 1.7,
+  "p": 0.55,
+  "ky": 1.25,
+  "kyAssumed": false,
+  "heatMonthOffset": 2,
+  "tMax": 31,
+  "tCrit": 35,
+  "minSowT": 10,
+  "frostTender": true,
+  "nFix": 0,
+  "nDemand": 150,
+  "carbon": 0.2,
+  "nResidual": 40,
+  "coverGap": 0.9,
+  "minBreak": 0,
+  "maxRun": 4,
+  "diseases": [
+   "western corn rootworm",
+   "Fusarium",
+   "eyespot"
+  ],
+  "econ": {
+   "yield": 16,
+   "price": 120,
+   "cost": 1200
+  },
+  "gaez": {
+   "phGroup": {
+    "reuse": "Maize"
+   },
+   "textureGroup": {
+    "reuse": "Maize"
+   },
+   "heat": {
+    "reuse": "Maize"
+   }
+  },
+  "faostat": {
+   "itemCode": 636,
+   "itemName": "Maize, forage"
+  },
+  "cropgridsLayers": [
+   "maizefor"
+  ],
+  "contract": true,
+  "perishableDays": null,
+  "residue": {
+   "dry": 1,
+   "slope": 0.05,
+   "intercept": 0.3,
+   "rbg": 0.22,
+   "ref": "assumed: stubble 5 % of DM yield plus 0.3 t, rbg from IPCC maize 0.22"
+  },
+  "sources": {
+   "latin/family/group": "taxonomy, standard",
+   "fao.sow": "assumed: same as repo maize [5,1]",
+   "fao.days": "Repo maize 30/40/50/30 (Table 11 style) with the late stage cut to 15 d (harvest at 30-35 % DM, ~2-3 weeks earlier than grain): assumed",
+   "fao.kc": "FAO-56 Table 12 (fetched), Maize, Field (grain) Kc ini 0.30, mid 1.20; Kc end 0.60 = value for harvest at high grain moisture (Table 12 footnote)",
+   "rootDepth": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Maize, Field (grain) 1.0-1.7 m (upper)",
+   "p": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Maize, Field p 0.55",
+   "ky": "FAO-33 (Doorenbos & Kassam 1979) whole-season Ky, value NOT re-checked against the source table (maize 1.25)",
+   "heatMonthOffset": "assumed: silking ~ day 70-75 after sowing, same as grain maize",
+   "tMax": "same as repo maize tMax 31",
+   "tCrit": "same as repo T_CRIT maize 35",
+   "minSowT": "same as repo MIN_SOW_T maize 10",
+   "frostTender": "frost kills",
+   "nFix": "assumed: non-legume",
+   "nDemand": "assumed: extension: 120-180 kg N/ha fertiliser, plus manure credit; German DueV style demand 200 minus soil N",
+   "carbon": "assumed: only stubble+roots stay (whole plant removed): well below grain maize 0.75",
+   "nResidual": "assumed: grain maize 60; silage removes the stover",
+   "coverGap": "assumed: late sowing, wide rows, bare until June (repo maize 0.6, silage cut earlier)",
+   "minBreak/maxRun": "assumed: repo maize minBreak 0, maxRun 2; silage monoculture longer in practice but rootworm limit retained 4",
+   "diseases": "extension/peer-reviewed literature, general knowledge (no single citation)",
+   "econ.yield": "assumed: EU/US silage maize 15-20 t DM/ha (Germany ~45 t FM at 33 % DM)",
+   "econ.price": "assumed: DE farm-gate silage maize 35-50 EUR/t fresh = 110-150 EUR/t DM; not re-verified",
+   "econ.cost": "assumed: estimate: seed, N, chopping/harvest contract",
+   "gaez": "reuse existing GAEZ Maize rows (pH, texture, heat: 'Maize' 120-150 d)",
+   "faostat": "FAOSTAT QCL item code recalled from memory, not re-verified live (verify before use)",
+   "cropgridsLayers": "layer name as supplied in the brief",
+   "contract": "assumed: silage is for own livestock/biogas: no cash market",
+   "perishableDays": "n/a (not a perishable vegetable)",
+   "residue": "assumed: stubble 5 % of DM yield plus 0.3 t, rbg from IPCC maize 0.22"
+  }
+ },
+ "grassley": {
+  "latin": "Lolium perenne + Phleum/Dactylis (mixed grasses)",
+  "family": "poaceae",
+  "group": "forage",
+  "fao": {
+   "sow": [
+    3,
+    15
+   ],
+   "days": [
+    10,
+    20,
+    200,
+    60
+   ],
+   "kc": [
+    0.4,
+    0.95,
+    0.85
+   ]
+  },
+  "rootDepth": 1.0,
+  "p": 0.6,
+  "ky": 1.2,
+  "kyAssumed": false,
+  "heatMonthOffset": 4,
+  "tMax": 28,
+  "tCrit": null,
+  "minSowT": 5,
+  "frostTender": false,
+  "nFix": 0,
+  "nDemand": 200,
+  "carbon": 0.9,
+  "nResidual": 30,
+  "coverGap": 0,
+  "minBreak": 0,
+  "maxRun": 4,
+  "diseases": [
+   "take-all green bridge",
+   "crown rust",
+   "leatherjackets"
+  ],
+  "econ": {
+   "yield": 11,
+   "price": 120,
+   "cost": 700
+  },
+  "gaez": {
+   "phGroup": {
+    "reuse": "Pasture Legume"
+   },
+   "textureGroup": {
+    "reuse": "Pasture Legume"
+   },
+   "heat": null
+  },
+  "faostat": {
+   "itemCode": 639,
+   "itemName": "Grasses nes for forage; silage"
+  },
+  "cropgridsLayers": [
+   "mixedgrass"
+  ],
+  "contract": true,
+  "perishableDays": null,
+  "perennial": true,
+  "hardiness": -20,
+  "kcMonthly": [
+   0.4,
+   0.4,
+   0.6,
+   0.85,
+   1.0,
+   1.0,
+   0.95,
+   0.95,
+   0.9,
+   0.7,
+   0.5,
+   0.4
+  ],
+  "kcMonthly_source": "assumed: seasonal shape of FAO-56 Table 12 grazing pasture, scaled like repo clover",
+  "residue": {
+   "dry": 1,
+   "slope": 0.3,
+   "intercept": 0,
+   "rbg": 0.54,
+   "ref": "IPCC 2006 Table 11.2 'Non-N-fixing forages' (rbg recalled, not re-fetched)"
+  },
+  "sources": {
+   "latin/family/group": "taxonomy, standard",
+   "fao.sow": "assumed: perennial/temporary ley: treated as year-round like repo clover; spring establishment",
+   "fao.days": "FAO-56 Table 11 (fetched fao.org/3/x0490e/x0490e0b.htm), Grass Pasture row: init 10, dev 20, mid/late not fixed ('--'); mid-season set to remainder of 365 d (assumed)",
+   "fao.kc": "FAO-56 Table 12 (fetched), Grazing Pasture rotated: Kc ini 0.40, Kc mid 0.85-1.05, Kc end 0.85; Rye Grass hay averaged: 0.95/1.05/1.00. Mid = 0.95 mid-range (assumed)",
+   "rootDepth": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Rye Grass hay 0.6-1.0 m (upper); Rotated Grazing goes to 1.5",
+   "p": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Rye Grass hay p 0.60",
+   "ky": "FAO-33 (Doorenbos & Kassam 1979) whole-season Ky, value NOT re-checked against the source table (grass 1.20)",
+   "heatMonthOffset": "assumed: peak growth May-July; month 4 after March sowing",
+   "tMax": "assumed: cool-season grass; growth slows above ~25-28 C",
+   "tCrit": "null: no flowering-stage limit for vegetative forage",
+   "minSowT": "assumed: ryegrass germinates above ~5 C",
+   "frostTender": "fully hardy, repo clover hardiness -20 C",
+   "nFix": "assumed: non-legume",
+   "nDemand": "assumed: RB209/DueV-type cut-ley demand 150-250 kg N/ha",
+   "carbon": "assumed: dense root mat; repo clover 1.0",
+   "nResidual": "assumed: repo clover 20; ley break releases more (repo LEY_BREAK_N 90 applies only to clover)",
+   "coverGap": "assumed: perennial cover all year",
+   "minBreak/maxRun": "assumed: 2-4 year ley; green bridge for take-all/wireworm to the next cereal",
+   "diseases": "extension/peer-reviewed literature, general knowledge (no single citation)",
+   "econ.yield": "assumed: intensive cut ley 10-14 t DM/ha",
+   "econ.price": "assumed: hay/silage 100-150 EUR/t DM; not re-verified",
+   "econ.cost": "assumed: estimate: N 200 kg, cutting contract",
+   "gaez": "no GAEZ grass group: pasture-legume pH/texture reused; no heat row (gddNeed 0, never limiting)",
+   "faostat": "FAOSTAT QCL item code recalled from memory, not re-verified live (verify before use)",
+   "cropgridsLayers": "layer name as supplied in the brief",
+   "contract": "assumed: livestock farm or hay buyer",
+   "perishableDays": "n/a (not a perishable vegetable)",
+   "residue": "IPCC 2006 Table 11.2 'Non-N-fixing forages' (rbg recalled, not re-fetched)"
+  }
+ },
+ "sorghumforage": {
+  "latin": "Sorghum bicolor x S. sudanense",
+  "family": "poaceae",
+  "group": "forage",
+  "fao": {
+   "sow": [
+    5,
+    10
+   ],
+   "days": [
+    20,
+    35,
+    40,
+    15
+   ],
+   "kc": [
+    0.3,
+    1.2,
+    1.05
+   ]
+  },
+  "rootDepth": 2.0,
+  "p": 0.5,
+  "ky": 0.9,
+  "kyAssumed": false,
+  "heatMonthOffset": 2,
+  "tMax": 35,
+  "tCrit": 36,
+  "minSowT": 13,
+  "frostTender": true,
+  "nFix": 0,
+  "nDemand": 100,
+  "carbon": 0.25,
+  "nResidual": 35,
+  "coverGap": 0.9,
+  "minBreak": 0,
+  "maxRun": 3,
+  "diseases": [
+   "anthracnose",
+   "charcoal rot",
+   "prussic acid (frost/drought) hazard"
+  ],
+  "econ": {
+   "yield": 13,
+   "price": 100,
+   "cost": 800
+  },
+  "gaez": {
+   "phGroup": {
+    "reuse": "Sorghum"
+   },
+   "textureGroup": {
+    "reuse": "Sorghum"
+   },
+   "heat": {
+    "reuse": "Sorghum"
+   }
+  },
+  "faostat": {
+   "itemCode": 637,
+   "itemName": "Sorghum, forage"
+  },
+  "cropgridsLayers": [
+   "sorghumfor"
+  ],
+  "contract": true,
+  "perishableDays": null,
+  "residue": {
+   "dry": 1,
+   "slope": 0.05,
+   "intercept": 0.3,
+   "rbg": 0.22,
+   "ref": "assumed as silage maize; IPCC sorghum rbg 0.22"
+  },
+  "sources": {
+   "latin/family/group": "taxonomy, standard",
+   "fao.sow": "assumed: same as repo sorghum [5,10]",
+   "fao.days": "FAO-56 Table 11 (fetched fao.org/3/x0490e/x0490e0b.htm), Sorghum row 20/35/40/30 with late stage cut to 15 d (cut at soft dough, assumed)",
+   "fao.kc": "FAO-56 Table 12 (fetched), Sorghum - sweet: Kc ini 0.30 mid 1.20 end 1.05 (green harvest)",
+   "rootDepth": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Sorghum sweet 1.0-2.0 m (upper)",
+   "p": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Sorghum sweet p 0.50",
+   "ky": "FAO-33 (Doorenbos & Kassam 1979) whole-season Ky, value NOT re-checked against the source table (sorghum 0.9); forage-specific value not tabulated",
+   "heatMonthOffset": "assumed: flowering ~ day 55-60, as grain sorghum",
+   "tMax": "same as repo sorghum 35",
+   "tCrit": "same as repo T_CRIT sorghum 36",
+   "minSowT": "same as repo MIN_SOW_T sorghum 13",
+   "frostTender": "frost kills",
+   "nFix": "assumed: non-legume",
+   "nDemand": "assumed: extension 80-120 kg N/ha",
+   "carbon": "assumed: stubble and roots; whole plant removed",
+   "nResidual": "same as repo sorghum 45 reduced for stover removal (assumed)",
+   "coverGap": "assumed: same logic as silage maize",
+   "minBreak/maxRun": "assumed: repo sorghum minBreak 0; forage stand 3-year cap assumed",
+   "diseases": "extension/peer-reviewed literature, general knowledge (no single citation)",
+   "econ.yield": "assumed: EU/US forage sorghum 10-16 t DM/ha",
+   "econ.price": "assumed: forage DM 80-120 EUR/t; not re-verified",
+   "econ.cost": "assumed: estimate",
+   "gaez": "reuse existing GAEZ Sorghum rows",
+   "faostat": "FAOSTAT QCL item code recalled from memory, not re-verified live (verify before use)",
+   "cropgridsLayers": "layer name as supplied in the brief",
+   "contract": "assumed: own livestock/biogas",
+   "perishableDays": "n/a (not a perishable vegetable)",
+   "residue": "assumed as silage maize; IPCC sorghum rbg 0.22"
+  }
+ },
+ "tomato": {
+  "latin": "Solanum lycopersicum",
+  "family": "solanaceae",
+  "group": "vegetable",
+  "fao": {
+   "sow": [
+    4,
+    25
+   ],
+   "days": [
+    30,
+    40,
+    45,
+    30
+   ],
+   "kc": [
+    0.6,
+    1.15,
+    0.8
+   ]
+  },
+  "rootDepth": 1.5,
+  "p": 0.4,
+  "ky": 1.05,
+  "kyAssumed": false,
+  "heatMonthOffset": 2.5,
+  "tMax": 30,
+  "tCrit": 32,
+  "minSowT": 12,
+  "frostTender": true,
+  "nFix": 0,
+  "nDemand": 180,
+  "carbon": 0.2,
+  "nResidual": 80,
+  "coverGap": 0.6,
+  "minBreak": 3,
+  "maxRun": 1,
+  "diseases": [
+   "late blight",
+   "Fusarium wilt",
+   "Verticillium wilt",
+   "bacterial canker",
+   "TYLCV (south)"
+  ],
+  "econ": {
+   "yield": 80,
+   "price": 90,
+   "cost": 6500
+  },
+  "gaez": {
+   "phGroup": {
+    "reuse": "Phaseolus Bean"
+   },
+   "textureGroup": {
+    "reuse": "Phaseolus Bean"
+   },
+   "heat": {
+    "reuse": "Phaseolus bean"
+   }
+  },
+  "faostat": {
+   "itemCode": 388,
+   "itemName": "Tomatoes"
+  },
+  "cropgridsLayers": [
+   "tomato"
+  ],
+  "contract": true,
+  "perishableDays": 10,
+  "residue": {
+   "dry": 0.06,
+   "slope": 0.8,
+   "intercept": 0.5,
+   "rbg": 0.2,
+   "ref": "assumed: water content 94 %; vine residue ~0.8 t DM per t fruit DM + 0.5"
+  },
+  "sources": {
+   "latin/family/group": "taxonomy, standard",
+   "fao.sow": "assumed: transplant date, Mediterranean row April/May",
+   "fao.days": "FAO-56 Table 11 (fetched fao.org/3/x0490e/x0490e0b.htm), Tomato row 30/40/45/30 = 145 d, April/May, Mediterranean",
+   "fao.kc": "FAO-56 Table 12 (fetched), b. Solanum Family ini 0.6; Tomato Kc mid 1.15, Kc end 0.70-0.90 (midpoint 0.80)",
+   "rootDepth": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Tomato 0.7-1.5 m (upper)",
+   "p": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Tomato p 0.40",
+   "ky": "FAO-33 (Doorenbos & Kassam 1979) whole-season Ky, value NOT re-checked against the source table (tomato 1.05)",
+   "heatMonthOffset": "fruit set at start of mid-season = (30+40)/30 = 2.3 months; rounded",
+   "tMax": "assumed: optimum day temp 21-29 C; fruit set declines when Tmax > ~30-32 C",
+   "tCrit": "assumed: Sato et al. 2000 (Ann. Bot.) and Peet/Willits: pollen viability and fruit set fall above ~32 C; recalled, not re-verified",
+   "minSowT": "assumed: transplant when soil >= 12-15 C",
+   "frostTender": "killed by frost",
+   "nFix": "assumed: non-legume",
+   "nDemand": "assumed: extension 150-220 kg N/ha, processing crop",
+   "carbon": "assumed: vines; fruit removed, IPCC has no tomato class",
+   "nResidual": "assumed: vegetable residues are N-rich 60-100 kg N/ha; assumed",
+   "coverGap": "assumed: transplanted, wide spacing",
+   "minBreak/maxRun": "assumed: Solanaceae: Fusarium/Verticillium wilt, nematodes, blight shared with potato; 3-4 y break",
+   "diseases": "extension/peer-reviewed literature, general knowledge (no single citation)",
+   "econ.yield": "assumed: processing tomato EU/California 70-100 t/ha fresh",
+   "econ.price": "assumed: Italy processing contract 85-110 EUR/t; fresh market 500-1000 EUR/t; not re-verified",
+   "econ.cost": "assumed: estimate: processing crop with mechanical harvest; fresh market with labour 15000+",
+   "gaez": "GAEZ v4 has no group for this crop; existing group reused as agronomic proxy (no GAEZ vegetables; warm-season fruit crop with similar acid/alkaline limits; bean heat rows 105-150 d, tmin 5)",
+   "faostat": "FAOSTAT QCL item code recalled from memory, not re-verified live (verify before use)",
+   "cropgridsLayers": "layer name as supplied in the brief",
+   "contract": "assumed: processing crop only under tomato-factory contract; fresh needs packer",
+   "perishableDays": "extension: typical shelf life at recommended cold-chain temperature",
+   "residue": "assumed: water content 94 %; vine residue ~0.8 t DM per t fruit DM + 0.5"
+  }
+ },
+ "onion": {
+  "latin": "Allium cepa",
+  "family": "amaryllidaceae",
+  "group": "vegetable",
+  "fao": {
+   "sow": [
+    4,
+    1
+   ],
+   "days": [
+    15,
+    25,
+    70,
+    40
+   ],
+   "kc": [
+    0.7,
+    1.05,
+    0.75
+   ]
+  },
+  "rootDepth": 0.6,
+  "p": 0.3,
+  "ky": 1.1,
+  "kyAssumed": false,
+  "heatMonthOffset": 1.5,
+  "tMax": 30,
+  "tCrit": null,
+  "minSowT": 6,
+  "frostTender": false,
+  "nFix": 0,
+  "nDemand": 120,
+  "carbon": 0.1,
+  "nResidual": 40,
+  "coverGap": 0.7,
+  "minBreak": 4,
+  "maxRun": 1,
+  "diseases": [
+   "white rot",
+   "downy mildew",
+   "Fusarium basal rot",
+   "thrips"
+  ],
+  "econ": {
+   "yield": 60,
+   "price": 160,
+   "cost": 6500
+  },
+  "gaez": {
+   "phGroup": {
+    "reuse": "Sugar Beet"
+   },
+   "textureGroup": {
+    "reuse": "Sugar Beet"
+   },
+   "heat": {
+    "reuse": "White potato"
+   }
+  },
+  "faostat": {
+   "itemCode": 403,
+   "itemName": "Onions and shallots, dry"
+  },
+  "cropgridsLayers": [
+   "onion"
+  ],
+  "contract": false,
+  "perishableDays": 150,
+  "residue": {
+   "dry": 0.12,
+   "slope": 0.8,
+   "intercept": 0.5,
+   "rbg": 0.2,
+   "ref": "assumed: water content 88 %"
+  },
+  "sources": {
+   "latin/family/group": "taxonomy, standard",
+   "fao.sow": "assumed: spring sowing, Mediterranean row April",
+   "fao.days": "FAO-56 Table 11 (fetched fao.org/3/x0490e/x0490e0b.htm), Onion (dry) row 15/25/70/40 = 150 d, April, Mediterranean",
+   "fao.kc": "FAO-56 Table 12 (fetched), a. Small Vegetables ini 0.7; Onions dry Kc mid 1.05, Kc end 0.75",
+   "rootDepth": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Onions dry 0.3-0.6 m (upper)",
+   "p": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Onions dry p 0.30",
+   "ky": "FAO-33 (Doorenbos & Kassam 1979) whole-season Ky, value NOT re-checked against the source table (onion 1.10)",
+   "heatMonthOffset": "bulbing starts at end of development stage (15+25)/30 = 1.3 months",
+   "tMax": "assumed: bulbing hastened and bulbs smaller above ~30 C; recalled extension",
+   "tCrit": "null: bulb crop; no flowering-stage limit (bolting is a quality defect)",
+   "minSowT": "assumed: seeds germinate from ~2-5 C; set 6",
+   "frostTender": "hardy to about -7 C as seedlings",
+   "nFix": "assumed: non-legume",
+   "nDemand": "assumed: extension 100-150 kg N/ha",
+   "carbon": "assumed: tops only",
+   "nResidual": "assumed: assumed; onion leaves little residue",
+   "coverGap": "assumed: shallow roots, sparse canopy, slow emergence",
+   "minBreak/maxRun": "assumed: white rot (Sclerotium cepivorum) persists 15+ years; Fusarium basal rot; 4-year break (7+ where white rot)",
+   "diseases": "extension/peer-reviewed literature, general knowledge (no single citation)",
+   "econ.yield": "assumed: EU/US field yields 50-75 t/ha fresh",
+   "econ.price": "assumed: NL/DE 120-200 EUR/t, US ~250 USD/t; not re-verified",
+   "econ.cost": "assumed: estimate: seed/sets, herbicide, harvest",
+   "gaez": "GAEZ v4 has no group for this crop; existing group reused as agronomic proxy (biennial bulb crop of cool climates with acid sensitivity; potato heat rows 120-150 d, tmin 5)",
+   "faostat": "FAOSTAT QCL item code recalled from memory, not re-verified live (verify before use)",
+   "cropgridsLayers": "layer name as supplied in the brief",
+   "contract": "-",
+   "perishableDays": "extension: typical shelf life at recommended cold-chain temperature",
+   "residue": "assumed: water content 88 %"
+  }
+ },
+ "cabbage": {
+  "latin": "Brassica oleracea var. capitata",
+  "family": "brassicaceae",
+  "group": "vegetable",
+  "fao": {
+   "sow": [
+    4,
+    15
+   ],
+   "days": [
+    40,
+    60,
+    50,
+    15
+   ],
+   "kc": [
+    0.7,
+    1.05,
+    0.95
+   ]
+  },
+  "rootDepth": 0.8,
+  "p": 0.45,
+  "ky": 0.95,
+  "kyAssumed": false,
+  "heatMonthOffset": 3.3,
+  "tMax": 28,
+  "tCrit": null,
+  "minSowT": 5,
+  "frostTender": false,
+  "nFix": 0,
+  "nDemand": 220,
+  "carbon": 0.2,
+  "nResidual": 100,
+  "coverGap": 0.5,
+  "minBreak": 4,
+  "maxRun": 1,
+  "diseases": [
+   "clubroot",
+   "Sclerotinia",
+   "black rot",
+   "cabbage root fly",
+   "caterpillars"
+  ],
+  "econ": {
+   "yield": 65,
+   "price": 130,
+   "cost": 6500
+  },
+  "gaez": {
+   "phGroup": {
+    "reuse": "Rape"
+   },
+   "textureGroup": {
+    "reuse": "Rape"
+   },
+   "heat": {
+    "reuse": "Sugar beet"
+   }
+  },
+  "faostat": {
+   "itemCode": 358,
+   "itemName": "Cabbages"
+  },
+  "cropgridsLayers": [
+   "cabbage"
+  ],
+  "contract": false,
+  "perishableDays": 100,
+  "clubroot_note": "repo Disease type 'clubroot' applies",
+  "residue": {
+   "dry": 0.08,
+   "slope": 0.8,
+   "intercept": 0.5,
+   "rbg": 0.2,
+   "ref": "assumed: water content 92 %; slope raised in practice, kept simple"
+  },
+  "sources": {
+   "latin/family/group": "taxonomy, standard",
+   "fao.sow": "assumed: spring transplanting for a summer-autumn crop",
+   "fao.days": "FAO-56 Table 11 (fetched fao.org/3/x0490e/x0490e0b.htm), Cabbage row 40/60/50/15 = 165 d, September, Calif. Desert (only row available)",
+   "fao.kc": "FAO-56 Table 12 (fetched), a. Small Vegetables ini 0.7; Cabbage Kc mid 1.05, Kc end 0.95",
+   "rootDepth": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Cabbage 0.5-0.8 m (upper)",
+   "p": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Cabbage p 0.45",
+   "ky": "FAO-33 (Doorenbos & Kassam 1979) whole-season Ky, value NOT re-checked against the source table (cabbage 0.95)",
+   "heatMonthOffset": "head formation at start of mid-season (40+60)/30 = 3.3 months",
+   "tMax": "assumed: cool-season crop; heading problems above ~25-28 C",
+   "tCrit": "null: leaf/head crop, no fruit-set stage",
+   "minSowT": "assumed: transplants/seed at ~5 C",
+   "frostTender": "hardy: tolerates -5 C",
+   "nFix": "assumed: non-legume",
+   "nDemand": "assumed: extension 200-280 kg N/ha (DueV allowance 280)",
+   "carbon": "assumed: outer leaves and stump are large",
+   "nResidual": "assumed: Brassica vegetable residues 80-130 kg N/ha; assumed",
+   "coverGap": "assumed: transplanted",
+   "minBreak/maxRun": "assumed: clubroot (Plasmodiophora) spores last 15+ y, shared with rapeseed; Sclerotinia; 4-year break",
+   "diseases": "extension/peer-reviewed literature, general knowledge (no single citation)",
+   "econ.yield": "assumed: EU/US 40-65 t/ha fresh; storage white cabbage up to 80",
+   "econ.price": "assumed: DE white cabbage 100-200 EUR/t; not re-verified",
+   "econ.cost": "assumed: estimate",
+   "gaez": "GAEZ v4 has no group for this crop; existing group reused as agronomic proxy (Brassicaceae relative, similar acid/alkaline limits; sugar beet heat rows 120-165 d, tmin 5)",
+   "faostat": "FAOSTAT QCL item code recalled from memory, not re-verified live (verify before use)",
+   "cropgridsLayers": "layer name as supplied in the brief",
+   "contract": "-",
+   "perishableDays": "extension: typical shelf life at recommended cold-chain temperature",
+   "residue": "assumed: water content 92 %; slope raised in practice, kept simple"
+  }
+ },
+ "chilli": {
+  "latin": "Capsicum annuum",
+  "family": "solanaceae",
+  "group": "vegetable",
+  "fao": {
+   "sow": [
+    4,
+    25
+   ],
+   "days": [
+    25,
+    35,
+    40,
+    20
+   ],
+   "kc": [
+    0.6,
+    1.05,
+    0.9
+   ]
+  },
+  "rootDepth": 1.0,
+  "p": 0.3,
+  "ky": 1.1,
+  "kyAssumed": false,
+  "heatMonthOffset": 2,
+  "tMax": 32,
+  "tCrit": 33,
+  "minSowT": 14,
+  "frostTender": true,
+  "nFix": 0,
+  "nDemand": 160,
+  "carbon": 0.15,
+  "nResidual": 60,
+  "coverGap": 0.6,
+  "minBreak": 3,
+  "maxRun": 1,
+  "diseases": [
+   "Phytophthora capsici",
+   "Verticillium wilt",
+   "bacterial spot",
+   "viruses",
+   "aphids"
+  ],
+  "econ": {
+   "yield": 30,
+   "price": 600,
+   "cost": 9000
+  },
+  "gaez": {
+   "phGroup": {
+    "reuse": "White Potato"
+   },
+   "textureGroup": {
+    "reuse": "White Potato"
+   },
+   "heat": {
+    "reuse": "Soybean"
+   }
+  },
+  "faostat": {
+   "itemCode": 401,
+   "itemName": "Chillies and peppers, green (Capsicum and Pimenta)"
+  },
+  "cropgridsLayers": [
+   "chilleetc"
+  ],
+  "contract": false,
+  "perishableDays": 10,
+  "note": "dried-chilli (paprika) variant has different yield (3-5 t dry/ha) and price",
+  "residue": {
+   "dry": 0.08,
+   "slope": 0.8,
+   "intercept": 0.5,
+   "rbg": 0.2,
+   "ref": "assumed: water content 92 %"
+  },
+  "sources": {
+   "latin/family/group": "taxonomy, standard",
+   "fao.sow": "assumed: transplant after last frost, 'April/June' Europe row",
+   "fao.days": "FAO-56 Table 11 (fetched fao.org/3/x0490e/x0490e0b.htm), Sweet peppers (bell) row 25(30)/35/40/20 = 125 d, April/June, Europe and Mediterranean (25 used)",
+   "fao.kc": "FAO-56 Table 12 (fetched), b. Solanum ini 0.6; Sweet Peppers (bell) Kc mid 1.05, Kc end 0.90",
+   "rootDepth": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Sweet Peppers (bell) 0.5-1.0 m (upper)",
+   "p": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Sweet Peppers (bell) p 0.30",
+   "ky": "FAO-33 (Doorenbos & Kassam 1979) whole-season Ky, value NOT re-checked against the source table (pepper 1.10)",
+   "heatMonthOffset": "flowering ~ (25+35)/30 = 2 months",
+   "tMax": "assumed: optimum day 20-30 C; flower drop above ~32 C",
+   "tCrit": "assumed: Erickson & Markhart 2002 and extension: flower/fruit drop above ~32-33 C; recalled, not re-verified",
+   "minSowT": "assumed: transplant at soil >= 14-15 C; ECOCROP Tmin 10 for growth",
+   "frostTender": "killed by frost",
+   "nFix": "assumed: non-legume",
+   "nDemand": "assumed: extension 120-200 kg N/ha",
+   "carbon": "assumed: small stems",
+   "nResidual": "assumed: assumed",
+   "coverGap": "assumed: transplanted",
+   "minBreak/maxRun": "assumed: Phytophthora capsici, Verticillium, bacterial spot, virus; 3-4 y Solanaceae break",
+   "diseases": "extension/peer-reviewed literature, general knowledge (no single citation)",
+   "econ.yield": "assumed: Spain/Mexico field 25-40 t/ha fresh; green chillies world avg ~18",
+   "econ.price": "assumed: EU fresh peppers 500-900 EUR/t; not re-verified",
+   "econ.cost": "assumed: estimate: hand harvest dominates",
+   "gaez": "GAEZ v4 has no group for this crop; existing group reused as agronomic proxy (solanaceous crop, acid-sensitive; soybean heat rows 105-150 d, tmin 10)",
+   "faostat": "FAOSTAT QCL item code recalled from memory, not re-verified live (verify before use)",
+   "cropgridsLayers": "layer name as supplied in the brief",
+   "contract": "-",
+   "perishableDays": "extension: typical shelf life at recommended cold-chain temperature",
+   "residue": "assumed: water content 92 %"
+  }
+ },
+ "watermelon": {
+  "latin": "Citrullus lanatus",
+  "family": "cucurbitaceae",
+  "group": "vegetable",
+  "fao": {
+   "sow": [
+    4,
+    25
+   ],
+   "days": [
+    20,
+    30,
+    30,
+    30
+   ],
+   "kc": [
+    0.4,
+    1.0,
+    0.75
+   ]
+  },
+  "rootDepth": 1.5,
+  "p": 0.4,
+  "ky": 0.85,
+  "kyAssumed": false,
+  "heatMonthOffset": 1.7,
+  "tMax": 36,
+  "tCrit": 38,
+  "minSowT": 16,
+  "frostTender": true,
+  "nFix": 0,
+  "nDemand": 100,
+  "carbon": 0.15,
+  "nResidual": 50,
+  "coverGap": 0.6,
+  "minBreak": 5,
+  "maxRun": 1,
+  "diseases": [
+   "Fusarium wilt",
+   "gummy stem blight",
+   "powdery mildew",
+   "viruses"
+  ],
+  "econ": {
+   "yield": 50,
+   "price": 250,
+   "cost": 7000
+  },
+  "gaez": {
+   "phGroup": {
+    "reuse": "Cowpea"
+   },
+   "textureGroup": {
+    "reuse": "Cowpea"
+   },
+   "heat": {
+    "reuse": "Cowpea"
+   }
+  },
+  "faostat": {
+   "itemCode": 567,
+   "itemName": "Watermelons"
+  },
+  "cropgridsLayers": [
+   "watermelon"
+  ],
+  "contract": false,
+  "perishableDays": 14,
+  "residue": {
+   "dry": 0.07,
+   "slope": 0.8,
+   "intercept": 0.5,
+   "rbg": 0.2,
+   "ref": "assumed: water content 93 %"
+  },
+  "sources": {
+   "latin/family/group": "taxonomy, standard",
+   "fao.sow": "assumed: Italy April row used as NH reference",
+   "fao.days": "FAO-56 Table 11 (fetched fao.org/3/x0490e/x0490e0b.htm), Water melons row 20/30/30/30 = 110 d, April, Italy",
+   "fao.kc": "FAO-56 Table 12 (fetched), c. Cucurbit group ini 0.5 -> Watermelon Kc ini 0.4, mid 1.00, end 0.75",
+   "rootDepth": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Watermelon 0.8-1.5 m (upper)",
+   "p": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Watermelon p 0.40",
+   "ky": "FAO-33 (Doorenbos & Kassam 1979) whole-season Ky, value NOT re-checked against the source table (watermelon 0.85)",
+   "heatMonthOffset": "fruit set at start of mid-season (20+30)/30 = 1.7 months",
+   "tMax": "assumed: hot-climate crop; optimum 24-30 C, heat limit assumed",
+   "tCrit": "assumed: cucurbit pollen viability falls above ~38-40 C; recalled, not re-verified",
+   "minSowT": "assumed: sow into soil >= 16-18 C; ECOCROP Tmin growth 10-15",
+   "frostTender": "killed by frost, chill below 10 C",
+   "nFix": "assumed: non-legume",
+   "nDemand": "assumed: extension 80-120 kg N/ha",
+   "carbon": "assumed: vines",
+   "nResidual": "assumed: assumed",
+   "coverGap": "assumed: runners cover soil only after 5-6 weeks",
+   "minBreak/maxRun": "assumed: Fusarium oxysporum f.sp. niveum persists; 5-7 y break unless grafted",
+   "diseases": "extension/peer-reviewed literature, general knowledge (no single citation)",
+   "econ.yield": "assumed: Spain/US 40-60 t/ha fresh; world avg ~30",
+   "econ.price": "assumed: Spain 200-300 EUR/t, US ~250 USD/t; not re-verified",
+   "econ.cost": "assumed: estimate: transplants, mulch/drip, harvest labour",
+   "gaez": "GAEZ v4 has no group for this crop; existing group reused as agronomic proxy (warm-season annual, sandy-soil preference similar; cowpea heat rows 80-120 d, tmin 10)",
+   "faostat": "FAOSTAT QCL item code recalled from memory, not re-verified live (verify before use)",
+   "cropgridsLayers": "layer name as supplied in the brief",
+   "contract": "-",
+   "perishableDays": "extension: typical shelf life at recommended cold-chain temperature",
+   "residue": "assumed: water content 93 %"
+  }
+ },
+ "okra": {
+  "latin": "Abelmoschus esculentus",
+  "family": "malvaceae",
+  "group": "vegetable",
+  "fao": {
+   "sow": [
+    5,
+    10
+   ],
+   "days": [
+    20,
+    30,
+    40,
+    20
+   ],
+   "kc": [
+    0.6,
+    1.05,
+    0.9
+   ]
+  },
+  "rootDepth": 1.2,
+  "p": 0.45,
+  "ky": 1.0,
+  "kyAssumed": false,
+  "heatMonthOffset": 2,
+  "tMax": 36,
+  "tCrit": 40,
+  "minSowT": 18,
+  "frostTender": true,
+  "nFix": 0,
+  "nDemand": 100,
+  "carbon": 0.2,
+  "nResidual": 40,
+  "coverGap": 0.6,
+  "minBreak": 3,
+  "maxRun": 1,
+  "diseases": [
+   "root-knot nematode",
+   "Fusarium wilt",
+   "yellow vein mosaic virus",
+   "powdery mildew"
+  ],
+  "econ": {
+   "yield": 12,
+   "price": 1000,
+   "cost": 8000
+  },
+  "gaez": {
+   "phGroup": {
+    "reuse": "Cotton"
+   },
+   "textureGroup": {
+    "reuse": "Cotton"
+   },
+   "heat": {
+    "reuse": "Cowpea"
+   }
+  },
+  "faostat": {
+   "itemCode": 430,
+   "itemName": "Okra"
+  },
+  "cropgridsLayers": [
+   "okra"
+  ],
+  "contract": false,
+  "perishableDays": 7,
+  "residue": {
+   "dry": 0.1,
+   "slope": 0.8,
+   "intercept": 0.5,
+   "rbg": 0.2,
+   "ref": "assumed: water content 90 %"
+  },
+  "sources": {
+   "latin/family/group": "taxonomy, standard",
+   "fao.sow": "assumed: sown after soil warms; reference May",
+   "fao.days": "assumed: not in FAO-56 Table 11; 110 d cycle with picking over ~60 d (extension). Pepper/aubergine Table 11 rows (125-130 d) give the same order",
+   "fao.kc": "assumed: not in FAO-56 Table 12; analogue Egg Plant: ini 0.6, mid 1.05, end 0.90",
+   "rootDepth": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Egg Plant 0.7-1.2 m (upper), analogue",
+   "p": "FAO-56 Table 22 (fetched fao.org/3/x0490e/x0490e0e.htm), Egg Plant p 0.45, analogue",
+   "ky": "assumed: not tabulated; moderate",
+   "heatMonthOffset": "assumed: flowering ~ day 45-55, picking begins a week later",
+   "tMax": "assumed: optimum 25-35 C (ECOCROP)",
+   "tCrit": "assumed: okra tolerates heat: flower drop from ~40 C; literature recalled, not verified",
+   "minSowT": "assumed: ECOCROP/extension: seeds rot below ~16-18 C",
+   "frostTender": "frost-killed; chilling injury below 10 C",
+   "nFix": "assumed: non-legume",
+   "nDemand": "assumed: extension 80-120 kg N/ha",
+   "carbon": "assumed: woody stalks",
+   "nResidual": "assumed: assumed",
+   "coverGap": "assumed: sown wide",
+   "minBreak/maxRun": "assumed: root-knot nematode, Fusarium wilt, yellow-vein mosaic; 3 y break",
+   "diseases": "extension/peer-reviewed literature, general knowledge (no single citation)",
+   "econ.yield": "assumed: US 8-12 t/ha; world avg ~8 (FAOSTAT, not re-pulled)",
+   "econ.price": "assumed: US fresh okra ~1000-1500 USD/t; not re-verified",
+   "econ.cost": "assumed: estimate: pods picked every 1-2 days",
+   "gaez": "GAEZ v4 has no group for this crop; existing group reused as agronomic proxy (both Malvaceae, warm-season; cowpea heat rows 80-120 d, tmin 10)",
+   "faostat": "FAOSTAT QCL item code recalled from memory, not re-verified live (verify before use)",
+   "cropgridsLayers": "layer name as supplied in the brief",
+   "contract": "-",
+   "perishableDays": "extension: typical shelf life at recommended cold-chain temperature",
+   "residue": "assumed: water content 90 %"
+  }
+ }
+}
