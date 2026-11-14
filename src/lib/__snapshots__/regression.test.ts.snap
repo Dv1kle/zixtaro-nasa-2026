@@ -1,0 +1,204 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`golden mode C (local practice, the page default) on the demo fields > iowa 1`] = `
+{
+  "model": "2026.10-region-n2c-heat-fill-glass-onset-fallow-paddy-forms-wet-chp-sow-rains-nest-monsoon-field-soyearly-height",
+  "source": "region",
+  "top": [
+    "maize 56.3 (science 56.3)",
+    "soybean 54.2 (science 60.3)",
+    "sunflower 0.8 (science 62.5)",
+    "sorghum 0.8 (science 59.1)",
+    "rapeseed 0.7 (science 53.9)",
+  ],
+}
+`;
+
+exports[`golden mode C (local practice, the page default) on the demo fields > kansas 1`] = `
+{
+  "model": "2026.10-region-n2c-heat-fill-glass-onset-fallow-paddy-forms-wet-chp-sow-rains-nest-monsoon-field-soyearly-height",
+  "source": "region",
+  "top": [
+    "wheat 28.8 (science 28.8)",
+    "maize 19.1 (science 30.5)",
+    "sorghum 10.7 (science 32.8)",
+    "soybean 3.1 (science 37.4)",
+    "triticale 0.9 (science 28.6)",
+  ],
+}
+`;
+
+exports[`golden mode C (local practice, the page default) on the demo fields > pergamino 1`] = `
+{
+  "model": "2026.10-region-n2c-heat-fill-glass-onset-fallow-paddy-forms-wet-chp-sow-rains-nest-monsoon-field-soyearly-height",
+  "source": "region",
+  "top": [
+    "soybean 42.3 (science 42.3)",
+    "maize 24.3 (science 48.9)",
+    "wheat 15.7 (science 49.1)",
+    "barley 1.6 (science 45.1)",
+    "sunflower 0.8 (science 42.7)",
+  ],
+}
+`;
+
+exports[`golden mode C (local practice, the page default) on the demo fields > poltava 1`] = `
+{
+  "model": "2026.10-region-n2c-heat-fill-glass-onset-fallow-paddy-forms-wet-chp-sow-rains-nest-monsoon-field-soyearly-height",
+  "source": "region",
+  "top": [
+    "sunflower 55.3 (science 55.3)",
+    "wheat 41.3 (science 43.6)",
+    "maize 36.6 (science 48.9)",
+    "barley 18.1 (science 42.3)",
+    "soybean 9.9 (science 51.3)",
+  ],
+}
+`;
+
+exports[`golden mode C (local practice, the page default) on the demo fields > torgau 1`] = `
+{
+  "model": "2026.10-region-n2c-heat-fill-glass-onset-fallow-paddy-forms-wet-chp-sow-rains-nest-monsoon-field-soyearly-height",
+  "source": "region",
+  "top": [
+    "wheat 60.1 (science 60.1)",
+    "rapeseed 35.1 (science 63.7)",
+    "barley 33.5 (science 56.4)",
+    "rye 13.0 (science 46.5)",
+    "maize 11.0 (science 60.9)",
+  ],
+}
+`;
+
+exports[`golden rankings on the demo fields > iowa 1`] = `
+{
+  "model": "2026.10-region-n2c-heat-fill-glass-onset-fallow-paddy-forms-wet-chp-sow-rains-nest-monsoon-field-soyearly-height",
+  "plan": [
+    "sunflower",
+    "sorghum",
+    "maize",
+    "sorghum",
+  ],
+  "top": [
+    "sunflower 62.5",
+    "soybean 60.3",
+    "sorghum 59.1",
+    "maize 56.3",
+    "rapeseed 53.9",
+  ],
+}
+`;
+
+exports[`golden rankings on the demo fields > kansas 1`] = `
+{
+  "model": "2026.10-region-n2c-heat-fill-glass-onset-fallow-paddy-forms-wet-chp-sow-rains-nest-monsoon-field-soyearly-height",
+  "plan": [
+    "fallow",
+    "cover",
+    "fallow",
+    "cover",
+  ],
+  "top": [
+    "fallow 66.0",
+    "cover 59.1",
+    "chickpea 37.5",
+    "soybean 37.4",
+    "sunflower 34.7",
+  ],
+}
+`;
+
+exports[`golden rankings on the demo fields > pergamino 1`] = `
+{
+  "model": "2026.10-region-n2c-heat-fill-glass-onset-fallow-paddy-forms-wet-chp-sow-rains-nest-monsoon-field-soyearly-height",
+  "plan": [
+    "wheat",
+    "soybean",
+    "wheat",
+    "soybean",
+  ],
+  "top": [
+    "wheat 49.1",
+    "maize 48.9",
+    "sorghum 45.5",
+    "rapeseed 45.3",
+    "barley 45.1",
+  ],
+}
+`;
+
+exports[`golden rankings on the demo fields > poltava 1`] = `
+{
+  "model": "2026.10-region-n2c-heat-fill-glass-onset-fallow-paddy-forms-wet-chp-sow-rains-nest-monsoon-field-soyearly-height",
+  "plan": [
+    "chickpea",
+    "millet",
+    "millet",
+    "sunflower",
+  ],
+  "top": [
+    "chickpea 58.7",
+    "sunflower 55.3",
+    "millet 54.7",
+    "linseed 53.6",
+    "oats 52.7",
+  ],
+}
+`;
+
+exports[`golden rankings on the demo fields > torgau 1`] = `
+{
+  "model": "2026.10-region-n2c-heat-fill-glass-onset-fallow-paddy-forms-wet-chp-sow-rains-nest-monsoon-field-soyearly-height",
+  "plan": [
+    "rapeseed",
+    "wheat",
+    "maize",
+    "rapeseed",
+  ],
+  "top": [
+    "rapeseed 63.7",
+    "maize 60.9",
+    "wheat 60.1",
+    "sunflower 58.5",
+    "soybean 58.2",
+  ],
+}
+`;
+
+exports[`golden rankings on the demo fields > torgau-east 1`] = `
+{
+  "model": "2026.10-region-n2c-heat-fill-glass-onset-fallow-paddy-forms-wet-chp-sow-rains-nest-monsoon-field-soyearly-height",
+  "plan": [
+    "rapeseed",
+    "barley",
+    "rapeseed",
+    "barley",
+  ],
+  "top": [
+    "rapeseed 59.8",
+    "sunflower 51.8",
+    "millet 51.7",
+    "sorghum 51.6",
+    "maize 51.4",
+  ],
+}
+`;
+
+exports[`golden rankings on the demo fields > torgau-pivot 1`] = `
+{
+  "model": "2026.10-region-n2c-heat-fill-glass-onset-fallow-paddy-forms-wet-chp-sow-rains-nest-monsoon-field-soyearly-height",
+  "plan": [
+    "rapeseed",
+    "barley",
+    "millet",
+    "rapeseed",
+  ],
+  "top": [
+    "rapeseed 66.1",
+    "millet 59.0",
+    "sorghum 57.0",
+    "barley 56.1",
+    "sunflower 54.6",
+  ],
+}
+`;
