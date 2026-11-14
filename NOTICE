@@ -1,0 +1,55 @@
+Zixtaro - from orbit to root zone
+Copyright 2026 The Zixtaro authors
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this work except in compliance
+with the License. A copy is in the file LICENSE and at http://www.apache.org/licenses/LICENSE-2.0
+
+Zixtaro is an independent project made for the NASA Space Apps Challenge 2026 ("Field Shift: Adapting Farms with
+NASA Data"). It is not affiliated with, sponsored by or endorsed by NASA or by any data provider named below. NASA
+and mission names are used only to name the sources of data.
+
+Zixtaro is decision support. It does not give agronomic, financial or legal advice, and its numbers are estimates
+without warranty: see the notices on the site (?page=legal).
+
+------------------------------------------------------------------------------------------------------------------
+
+The License covers Zixtaro's own code, text and drawings. It does not cover the data, imagery, software,
+typefaces and scanned objects made by others that the site reads or contains. Each of those keeps its own
+terms; the full list, with every licence, is in THIRD_PARTY.md. Credits that those terms ask to be carried:
+
+Data
+- NASA POWER, MERRA-2, GPM IMERG, GIBS (SMAP, MODIS, VIIRS, IMERG), GRACE / GRACE-FO, NEX-GDDP-CMIP6, SRTM, HLS:
+  data and imagery courtesy of NASA and its mission partners. We acknowledge the use of data from the NASA POWER
+  Project (NASA Langley Research Center) and of imagery from NASA's Global Imagery Browse Services (GIBS), part of
+  NASA's Earth Science Data and Information System (ESDIS).
+- SoilGrids 2.0: (c) ISRIC - World Soil Information, CC BY 4.0.
+- FAOSTAT: FAO. FAOSTAT. License: CC BY 4.0.
+- GAEZ v4: FAO and IIASA. CC BY-NC-SA 3.0 IGO.
+- CROPGRIDS: Tang, Nguyen, Conchedda, Casse, Tubiello and Maggi (2024), CC BY 4.0.
+- Travel time to cities: Nelson et al. (2019), CC BY 4.0.
+- Eurostat and the DG AGRI agri-food data portal: (c) European Union, reuse authorised with the source named.
+- Open-Meteo: weather data by Open-Meteo.com, CC BY 4.0.
+- Cropland Data Layer: USDA National Agricultural Statistics Service.
+- Annual Crop Inventory: Agriculture and Agri-Food Canada, Open Government Licence - Canada.
+- Registre parcellaire graphique: IGN and ASP, Licence Ouverte 2.0.
+- Marker: Landbrugsstyrelsen, CC0 1.0.
+
+Maps
+- World Imagery: Esri, Maxar, Earthstar Geographics, and the GIS User Community.
+- Place names and boundaries: (c) OpenStreetMap contributors, ODbL 1.0.
+- Terrain Tiles: Mapzen, hosted by Amazon Web Services; elevation from SRTM and national surveys.
+
+Typefaces (SIL Open Font License 1.1)
+- Archivo (Omnibus-Type), Instrument Serif (Instrument), Geist Mono (Vercel).
+
+Objects and skies
+- Scanned props and evening skies from Poly Haven, CC0 1.0 (src/assets/cc0/README.md).
+
+Software
+- React, three.js, postprocessing, MapLibre GL JS, Motion, Lenis, Lucide, geotiff.js, qrcode-generator and the
+  packages they bring, each under its own open-source licence (MIT, ISC, BSD, Apache-2.0, Zlib, 0BSD, CC0, OFL).
+
+Not under the project's licence
+- src/lib/gaez-tables.ts and src/data/perennials.json are transcribed from FAO/IIASA GAEZ v4 (model documentation
+  CC BY-NC-SA 3.0 IGO, data CC BY-NC-SA 4.0). They keep that licence - non-commercial, share-alike - and are not
+  covered by the Apache License 2.0 that covers the rest of the project's own work.
