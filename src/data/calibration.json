@@ -1,0 +1,771 @@
+{
+ "generated": "2026-11-14",
+ "horizon": 10,
+ "sites": [
+  "torgau",
+  "poltava",
+  "iowa",
+  "kansas",
+  "pergamino"
+ ],
+ "decisions": 85,
+ "years": [
+  2000,
+  2016
+ ],
+ "all": {
+  "bins": [
+   {
+    "from": 0,
+    "to": 0.5,
+    "n": 2,
+    "meanShare": 0.4458333333333333,
+    "hitRate": 1
+   },
+   {
+    "from": 0.5,
+    "to": 0.7,
+    "n": 5,
+    "meanShare": 0.6083333333333333,
+    "hitRate": 0.6
+   },
+   {
+    "from": 0.7,
+    "to": 0.9,
+    "n": 20,
+    "meanShare": 0.8316666666666667,
+    "hitRate": 0.75
+   },
+   {
+    "from": 0.9,
+    "to": 1,
+    "n": 58,
+    "meanShare": 0.9790229885057471,
+    "hitRate": 1
+   }
+  ],
+  "brier": 0.07053104575163403,
+  "brierClimatology": 0.0755709342560557,
+  "n": 85,
+  "hitRate": 0.9176470588235294
+ },
+ "weather": {
+  "bins": [
+   {
+    "from": 0,
+    "to": 0.5,
+    "n": 0,
+    "meanShare": null,
+    "hitRate": null
+   },
+   {
+    "from": 0.5,
+    "to": 0.7,
+    "n": 3,
+    "meanShare": 0.611111111111111,
+    "hitRate": 0.6666666666666666
+   },
+   {
+    "from": 0.7,
+    "to": 0.9,
+    "n": 5,
+    "meanShare": 0.8333333333333334,
+    "hitRate": 0.8
+   },
+   {
+    "from": 0.9,
+    "to": 1,
+    "n": 77,
+    "meanShare": 0.9942640692640692,
+    "hitRate": 0.935064935064935
+   }
+  ],
+  "brier": 0.07325898692810459,
+  "brierClimatology": 0.0755709342560557,
+  "n": 85,
+  "hitRate": 0.9176470588235294
+ },
+ "top2": 0.9882352941176471,
+ "rows": [
+  {
+   "s": "torgau",
+   "d": 2000,
+   "p": "linseed",
+   "a": 0.517,
+   "w": 0.55,
+   "t": "sunflower"
+  },
+  {
+   "s": "torgau",
+   "d": 2001,
+   "p": "linseed",
+   "a": 0.625,
+   "w": 0.775,
+   "t": "sunflower"
+  },
+  {
+   "s": "torgau",
+   "d": 2002,
+   "p": "sunflower",
+   "a": 0.417,
+   "w": 0.608,
+   "t": "sunflower"
+  },
+  {
+   "s": "torgau",
+   "d": 2003,
+   "p": "sunflower",
+   "a": 0.658,
+   "w": 0.975,
+   "t": "sunflower"
+  },
+  {
+   "s": "torgau",
+   "d": 2004,
+   "p": "sunflower",
+   "a": 0.717,
+   "w": 0.992,
+   "t": "sunflower"
+  },
+  {
+   "s": "torgau",
+   "d": 2005,
+   "p": "sunflower",
+   "a": 0.475,
+   "w": 0.675,
+   "t": "sunflower"
+  },
+  {
+   "s": "torgau",
+   "d": 2006,
+   "p": "sunflower",
+   "a": 0.625,
+   "w": 0.883,
+   "t": "sunflower"
+  },
+  {
+   "s": "torgau",
+   "d": 2007,
+   "p": "sunflower",
+   "a": 0.617,
+   "w": 0.892,
+   "t": "sunflower"
+  },
+  {
+   "s": "torgau",
+   "d": 2008,
+   "p": "sunflower",
+   "a": 0.775,
+   "w": 0.958,
+   "t": "sunflower"
+  },
+  {
+   "s": "torgau",
+   "d": 2009,
+   "p": "sunflower",
+   "a": 0.792,
+   "w": 0.967,
+   "t": "sunflower"
+  },
+  {
+   "s": "torgau",
+   "d": 2010,
+   "p": "sunflower",
+   "a": 0.717,
+   "w": 0.808,
+   "t": "sunflower"
+  },
+  {
+   "s": "torgau",
+   "d": 2011,
+   "p": "sunflower",
+   "a": 0.708,
+   "w": 0.808,
+   "t": "sunflower"
+  },
+  {
+   "s": "torgau",
+   "d": 2012,
+   "p": "sunflower",
+   "a": 0.842,
+   "w": 1,
+   "t": "rapeseed"
+  },
+  {
+   "s": "torgau",
+   "d": 2013,
+   "p": "sunflower",
+   "a": 0.867,
+   "w": 1,
+   "t": "rapeseed"
+  },
+  {
+   "s": "torgau",
+   "d": 2014,
+   "p": "sunflower",
+   "a": 0.867,
+   "w": 1,
+   "t": "rapeseed"
+  },
+  {
+   "s": "torgau",
+   "d": 2015,
+   "p": "sunflower",
+   "a": 0.858,
+   "w": 0.975,
+   "t": "rapeseed"
+  },
+  {
+   "s": "torgau",
+   "d": 2016,
+   "p": "sunflower",
+   "a": 0.867,
+   "w": 1,
+   "t": "rapeseed"
+  },
+  {
+   "s": "poltava",
+   "d": 2000,
+   "p": "chickpea",
+   "a": 1,
+   "w": 1,
+   "t": "chickpea"
+  },
+  {
+   "s": "poltava",
+   "d": 2001,
+   "p": "chickpea",
+   "a": 1,
+   "w": 1,
+   "t": "chickpea"
+  },
+  {
+   "s": "poltava",
+   "d": 2002,
+   "p": "chickpea",
+   "a": 0.992,
+   "w": 1,
+   "t": "chickpea"
+  },
+  {
+   "s": "poltava",
+   "d": 2003,
+   "p": "chickpea",
+   "a": 0.992,
+   "w": 1,
+   "t": "chickpea"
+  },
+  {
+   "s": "poltava",
+   "d": 2004,
+   "p": "chickpea",
+   "a": 0.992,
+   "w": 1,
+   "t": "chickpea"
+  },
+  {
+   "s": "poltava",
+   "d": 2005,
+   "p": "chickpea",
+   "a": 0.867,
+   "w": 1,
+   "t": "chickpea"
+  },
+  {
+   "s": "poltava",
+   "d": 2006,
+   "p": "chickpea",
+   "a": 0.858,
+   "w": 0.958,
+   "t": "chickpea"
+  },
+  {
+   "s": "poltava",
+   "d": 2007,
+   "p": "chickpea",
+   "a": 0.817,
+   "w": 0.942,
+   "t": "chickpea"
+  },
+  {
+   "s": "poltava",
+   "d": 2008,
+   "p": "chickpea",
+   "a": 0.792,
+   "w": 0.95,
+   "t": "chickpea"
+  },
+  {
+   "s": "poltava",
+   "d": 2009,
+   "p": "chickpea",
+   "a": 0.908,
+   "w": 1,
+   "t": "chickpea"
+  },
+  {
+   "s": "poltava",
+   "d": 2010,
+   "p": "chickpea",
+   "a": 0.858,
+   "w": 0.95,
+   "t": "chickpea"
+  },
+  {
+   "s": "poltava",
+   "d": 2011,
+   "p": "chickpea",
+   "a": 0.917,
+   "w": 0.975,
+   "t": "chickpea"
+  },
+  {
+   "s": "poltava",
+   "d": 2012,
+   "p": "chickpea",
+   "a": 0.892,
+   "w": 0.983,
+   "t": "chickpea"
+  },
+  {
+   "s": "poltava",
+   "d": 2013,
+   "p": "chickpea",
+   "a": 0.908,
+   "w": 0.983,
+   "t": "chickpea"
+  },
+  {
+   "s": "poltava",
+   "d": 2014,
+   "p": "chickpea",
+   "a": 0.95,
+   "w": 1,
+   "t": "chickpea"
+  },
+  {
+   "s": "poltava",
+   "d": 2015,
+   "p": "chickpea",
+   "a": 1,
+   "w": 1,
+   "t": "chickpea"
+  },
+  {
+   "s": "poltava",
+   "d": 2016,
+   "p": "chickpea",
+   "a": 1,
+   "w": 1,
+   "t": "chickpea"
+  },
+  {
+   "s": "iowa",
+   "d": 2000,
+   "p": "soybean",
+   "a": 1,
+   "w": 1,
+   "t": "soybean"
+  },
+  {
+   "s": "iowa",
+   "d": 2001,
+   "p": "soybean",
+   "a": 1,
+   "w": 1,
+   "t": "soybean"
+  },
+  {
+   "s": "iowa",
+   "d": 2002,
+   "p": "soybean",
+   "a": 1,
+   "w": 1,
+   "t": "soybean"
+  },
+  {
+   "s": "iowa",
+   "d": 2003,
+   "p": "soybean",
+   "a": 1,
+   "w": 1,
+   "t": "soybean"
+  },
+  {
+   "s": "iowa",
+   "d": 2004,
+   "p": "soybean",
+   "a": 1,
+   "w": 1,
+   "t": "soybean"
+  },
+  {
+   "s": "iowa",
+   "d": 2005,
+   "p": "soybean",
+   "a": 0.992,
+   "w": 1,
+   "t": "soybean"
+  },
+  {
+   "s": "iowa",
+   "d": 2006,
+   "p": "soybean",
+   "a": 0.992,
+   "w": 1,
+   "t": "soybean"
+  },
+  {
+   "s": "iowa",
+   "d": 2007,
+   "p": "soybean",
+   "a": 0.975,
+   "w": 1,
+   "t": "soybean"
+  },
+  {
+   "s": "iowa",
+   "d": 2008,
+   "p": "soybean",
+   "a": 0.975,
+   "w": 1,
+   "t": "soybean"
+  },
+  {
+   "s": "iowa",
+   "d": 2009,
+   "p": "soybean",
+   "a": 1,
+   "w": 1,
+   "t": "soybean"
+  },
+  {
+   "s": "iowa",
+   "d": 2010,
+   "p": "soybean",
+   "a": 1,
+   "w": 1,
+   "t": "soybean"
+  },
+  {
+   "s": "iowa",
+   "d": 2011,
+   "p": "soybean",
+   "a": 0.992,
+   "w": 1,
+   "t": "soybean"
+  },
+  {
+   "s": "iowa",
+   "d": 2012,
+   "p": "soybean",
+   "a": 1,
+   "w": 1,
+   "t": "soybean"
+  },
+  {
+   "s": "iowa",
+   "d": 2013,
+   "p": "soybean",
+   "a": 0.992,
+   "w": 1,
+   "t": "soybean"
+  },
+  {
+   "s": "iowa",
+   "d": 2014,
+   "p": "soybean",
+   "a": 0.958,
+   "w": 0.992,
+   "t": "soybean"
+  },
+  {
+   "s": "iowa",
+   "d": 2015,
+   "p": "soybean",
+   "a": 0.958,
+   "w": 0.992,
+   "t": "soybean"
+  },
+  {
+   "s": "iowa",
+   "d": 2016,
+   "p": "soybean",
+   "a": 0.992,
+   "w": 1,
+   "t": "soybean"
+  },
+  {
+   "s": "kansas",
+   "d": 2000,
+   "p": "cover",
+   "a": 1,
+   "w": 1,
+   "t": "cover"
+  },
+  {
+   "s": "kansas",
+   "d": 2001,
+   "p": "cover",
+   "a": 1,
+   "w": 1,
+   "t": "cover"
+  },
+  {
+   "s": "kansas",
+   "d": 2002,
+   "p": "cover",
+   "a": 1,
+   "w": 1,
+   "t": "cover"
+  },
+  {
+   "s": "kansas",
+   "d": 2003,
+   "p": "cover",
+   "a": 1,
+   "w": 1,
+   "t": "cover"
+  },
+  {
+   "s": "kansas",
+   "d": 2004,
+   "p": "cover",
+   "a": 1,
+   "w": 1,
+   "t": "cover"
+  },
+  {
+   "s": "kansas",
+   "d": 2005,
+   "p": "cover",
+   "a": 1,
+   "w": 1,
+   "t": "cover"
+  },
+  {
+   "s": "kansas",
+   "d": 2006,
+   "p": "cover",
+   "a": 1,
+   "w": 1,
+   "t": "cover"
+  },
+  {
+   "s": "kansas",
+   "d": 2007,
+   "p": "cover",
+   "a": 1,
+   "w": 1,
+   "t": "cover"
+  },
+  {
+   "s": "kansas",
+   "d": 2008,
+   "p": "cover",
+   "a": 1,
+   "w": 1,
+   "t": "cover"
+  },
+  {
+   "s": "kansas",
+   "d": 2009,
+   "p": "cover",
+   "a": 1,
+   "w": 1,
+   "t": "cover"
+  },
+  {
+   "s": "kansas",
+   "d": 2010,
+   "p": "cover",
+   "a": 1,
+   "w": 1,
+   "t": "cover"
+  },
+  {
+   "s": "kansas",
+   "d": 2011,
+   "p": "cover",
+   "a": 1,
+   "w": 1,
+   "t": "cover"
+  },
+  {
+   "s": "kansas",
+   "d": 2012,
+   "p": "cover",
+   "a": 1,
+   "w": 1,
+   "t": "cover"
+  },
+  {
+   "s": "kansas",
+   "d": 2013,
+   "p": "cover",
+   "a": 1,
+   "w": 1,
+   "t": "cover"
+  },
+  {
+   "s": "kansas",
+   "d": 2014,
+   "p": "cover",
+   "a": 1,
+   "w": 1,
+   "t": "cover"
+  },
+  {
+   "s": "kansas",
+   "d": 2015,
+   "p": "cover",
+   "a": 1,
+   "w": 1,
+   "t": "cover"
+  },
+  {
+   "s": "kansas",
+   "d": 2016,
+   "p": "cover",
+   "a": 1,
+   "w": 1,
+   "t": "cover"
+  },
+  {
+   "s": "pergamino",
+   "d": 2000,
+   "p": "sorghum",
+   "a": 0.95,
+   "w": 0.992,
+   "t": "sorghum"
+  },
+  {
+   "s": "pergamino",
+   "d": 2001,
+   "p": "sorghum",
+   "a": 0.992,
+   "w": 1,
+   "t": "sorghum"
+  },
+  {
+   "s": "pergamino",
+   "d": 2002,
+   "p": "sorghum",
+   "a": 0.933,
+   "w": 1,
+   "t": "sorghum"
+  },
+  {
+   "s": "pergamino",
+   "d": 2003,
+   "p": "sorghum",
+   "a": 0.9,
+   "w": 1,
+   "t": "sorghum"
+  },
+  {
+   "s": "pergamino",
+   "d": 2004,
+   "p": "sorghum",
+   "a": 0.892,
+   "w": 0.983,
+   "t": "sorghum"
+  },
+  {
+   "s": "pergamino",
+   "d": 2005,
+   "p": "sorghum",
+   "a": 0.883,
+   "w": 1,
+   "t": "sorghum"
+  },
+  {
+   "s": "pergamino",
+   "d": 2006,
+   "p": "sorghum",
+   "a": 0.883,
+   "w": 0.992,
+   "t": "sorghum"
+  },
+  {
+   "s": "pergamino",
+   "d": 2007,
+   "p": "sorghum",
+   "a": 0.883,
+   "w": 1,
+   "t": "sorghum"
+  },
+  {
+   "s": "pergamino",
+   "d": 2008,
+   "p": "sorghum",
+   "a": 0.925,
+   "w": 1,
+   "t": "sorghum"
+  },
+  {
+   "s": "pergamino",
+   "d": 2009,
+   "p": "sorghum",
+   "a": 0.917,
+   "w": 1,
+   "t": "sorghum"
+  },
+  {
+   "s": "pergamino",
+   "d": 2010,
+   "p": "sorghum",
+   "a": 0.917,
+   "w": 1,
+   "t": "sorghum"
+  },
+  {
+   "s": "pergamino",
+   "d": 2011,
+   "p": "sorghum",
+   "a": 0.917,
+   "w": 1,
+   "t": "sorghum"
+  },
+  {
+   "s": "pergamino",
+   "d": 2012,
+   "p": "sorghum",
+   "a": 0.958,
+   "w": 1,
+   "t": "sorghum"
+  },
+  {
+   "s": "pergamino",
+   "d": 2013,
+   "p": "sorghum",
+   "a": 0.983,
+   "w": 1,
+   "t": "sorghum"
+  },
+  {
+   "s": "pergamino",
+   "d": 2014,
+   "p": "sorghum",
+   "a": 0.975,
+   "w": 1,
+   "t": "sorghum"
+  },
+  {
+   "s": "pergamino",
+   "d": 2015,
+   "p": "sorghum",
+   "a": 0.958,
+   "w": 1,
+   "t": "sorghum"
+  },
+  {
+   "s": "pergamino",
+   "d": 2016,
+   "p": "sorghum",
+   "a": 0.975,
+   "w": 1,
+   "t": "sorghum"
+  }
+ ]
+}

@@ -1,0 +1,136 @@
+{
+ "source": "Nelson et al. (2019) travel time to cities >= 50 000 (2015) \u00d7 CROPGRIDS 2020 harvested area, 0.05\u00b0",
+ "built": "2026-11-14",
+ "hours": {
+  "tomato": {
+   "p50": 0.58,
+   "p90": 2.26,
+   "p95": 3.32,
+   "within1h": 0.694,
+   "within2h": 0.877,
+   "within4h": 0.966,
+   "within8h": 0.995,
+   "areaKm2": 39914
+  },
+  "chilli": {
+   "p50": 0.81,
+   "p90": 3.08,
+   "p95": 4.44,
+   "within1h": 0.576,
+   "within2h": 0.807,
+   "within4h": 0.938,
+   "within8h": 0.987,
+   "areaKm2": 18059
+  },
+  "chillidry": {
+   "p50": 0.79,
+   "p90": 3.86,
+   "p95": 5.75,
+   "within1h": 0.582,
+   "within2h": 0.776,
+   "within4h": 0.905,
+   "within8h": 0.977,
+   "areaKm2": 34256
+  },
+  "okra": {
+   "p50": 0.83,
+   "p90": 2.31,
+   "p95": 3.08,
+   "within1h": 0.587,
+   "within2h": 0.862,
+   "within4h": 0.977,
+   "within8h": 1.0,
+   "areaKm2": 23490
+  },
+  "watermelon": {
+   "p50": 0.65,
+   "p90": 2.47,
+   "p95": 3.51,
+   "within1h": 0.659,
+   "within2h": 0.858,
+   "within4h": 0.962,
+   "within8h": 0.994,
+   "areaKm2": 28637
+  },
+  "cabbage": {
+   "p50": 0.57,
+   "p90": 2.2,
+   "p95": 3.22,
+   "within1h": 0.702,
+   "within2h": 0.884,
+   "within4h": 0.968,
+   "within8h": 0.995,
+   "areaKm2": 22015
+  },
+  "onion": {
+   "p50": 0.65,
+   "p90": 2.37,
+   "p95": 3.47,
+   "within1h": 0.67,
+   "within2h": 0.869,
+   "within4h": 0.962,
+   "within8h": 0.993,
+   "areaKm2": 53234
+  },
+  "vegetables": {
+   "p50": 0.6,
+   "p90": 2.31,
+   "p95": 3.39,
+   "within1h": 0.688,
+   "within2h": 0.873,
+   "within4h": 0.964,
+   "within8h": 0.995,
+   "areaKm2": 339614
+  },
+  "wheat": {
+   "p50": 0.99,
+   "p90": 3.65,
+   "p95": 4.73,
+   "within1h": 0.503,
+   "within2h": 0.732,
+   "within4h": 0.919,
+   "within8h": 0.994,
+   "areaKm2": 2074280
+  },
+  "maize": {
+   "p50": 0.96,
+   "p90": 2.9,
+   "p95": 3.87,
+   "within1h": 0.519,
+   "within2h": 0.802,
+   "within4h": 0.954,
+   "within8h": 0.994,
+   "areaKm2": 2001263
+  },
+  "rice": {
+   "p50": 0.63,
+   "p90": 2.54,
+   "p95": 3.84,
+   "within1h": 0.655,
+   "within2h": 0.851,
+   "within4h": 0.953,
+   "within8h": 0.981,
+   "areaKm2": 1584723
+  },
+  "soybean": {
+   "p50": 1.24,
+   "p90": 3.61,
+   "p95": 4.86,
+   "within1h": 0.404,
+   "within2h": 0.716,
+   "within4h": 0.92,
+   "within8h": 0.989,
+   "areaKm2": 1263134
+  },
+  "all cropland": {
+   "p50": 0.94,
+   "p90": 3.27,
+   "p95": 4.47,
+   "within1h": 0.523,
+   "within2h": 0.772,
+   "within4h": 0.935,
+   "within8h": 0.99,
+   "areaKm2": 16867872
+  }
+ }
+}

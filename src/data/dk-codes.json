@@ -1,0 +1,1005 @@
+{
+ "built": "2026-11-14",
+ "source": [
+  {
+   "what": "codes and names as they appear in the parcels (field Afgkode, Afgroede), Landbrugsstyrelsen Marker WFS",
+   "url": "https://geodata.fvm.dk/geoserver/ows?service=WFS&request=GetFeature&typeNames=Marker:Marker_<year>",
+   "years": [
+    2019,
+    2022,
+    2024
+   ],
+   "sample": "20 areas across Denmark x 3 years + the 12 rotation windows 2019-2023",
+   "file": "node_modules/.cache/h4/dk-codes/discovered.json"
+  }
+ ],
+ "rules": "as the French RPG table: forms of a crop = one crop; silage maize = maize; sweet corn = maize, not a truth crop; grass leys and permanent grass = grassley; lucerne/clover-dominant = clover; mixtures, fallow, margins, forest, vegetables, fruit, energy crops = no crop",
+ "codes": {
+  "1": {
+   "name": "Vårbyg",
+   "crop": "barley",
+   "note": "spring/winter barley, whole-crop, green-cut"
+  },
+  "2": {
+   "name": "Vårhvede",
+   "crop": "wheat",
+   "note": "spring/winter (bread) wheat, spelt, green-cut"
+  },
+  "3": {
+   "name": "Vårhavre",
+   "crop": "oats",
+   "note": "oats, whole-crop, green-cut"
+  },
+  "4": {
+   "name": "Blanding af vårsåede arter",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "5": {
+   "name": "Majs til modenhed",
+   "crop": "maize",
+   "note": "grain and silage maize (also undersown with grass)"
+  },
+  "6": {
+   "name": "Vårhvede, brødhvede",
+   "crop": "wheat",
+   "note": "spring/winter (bread) wheat, spelt, green-cut"
+  },
+  "7": {
+   "name": "Korn + bælgsæd under 50% bælgsæd",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "9": {
+   "name": "Vinterspelt",
+   "crop": "wheat",
+   "note": "spring/winter (bread) wheat, spelt, green-cut"
+  },
+  "10": {
+   "name": "Vinterbyg",
+   "crop": "barley",
+   "note": "spring/winter barley, whole-crop, green-cut"
+  },
+  "11": {
+   "name": "Vinterhvede",
+   "crop": "wheat",
+   "note": "spring/winter (bread) wheat, spelt, green-cut"
+  },
+  "12": {
+   "name": null,
+   "crop": "oats",
+   "note": "oats, whole-crop, green-cut"
+  },
+  "13": {
+   "name": "Vinterhvede, brødhvede",
+   "crop": "wheat",
+   "note": "spring/winter (bread) wheat, spelt, green-cut"
+  },
+  "14": {
+   "name": "Vinterrug",
+   "crop": "rye",
+   "note": "rye incl. hybrid rye, whole-crop, green-cut"
+  },
+  "15": {
+   "name": "Vinterhybridrug",
+   "crop": "rye",
+   "note": "rye incl. hybrid rye, whole-crop, green-cut"
+  },
+  "16": {
+   "name": "Vintertriticale",
+   "crop": "triticale",
+   "note": "triticale"
+  },
+  "18": {
+   "name": "Korn og bælgsæd (over 50 % bælgsæd)",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "19": {
+   "name": "Majs til modenhed med græsudlæg",
+   "crop": "maize",
+   "note": "grain and silage maize (also undersown with grass)"
+  },
+  "21": {
+   "name": "Vårraps",
+   "crop": "rapeseed",
+   "note": "spring/winter rapeseed"
+  },
+  "22": {
+   "name": "Vinterraps",
+   "crop": "rapeseed",
+   "note": "spring/winter rapeseed"
+  },
+  "23": {
+   "name": null,
+   "crop": "rapeseed",
+   "note": "spring/winter rapeseed"
+  },
+  "24": {
+   "name": "Solsikke",
+   "crop": "sunflower",
+   "note": "sunflower"
+  },
+  "25": {
+   "name": null,
+   "crop": "sunflower",
+   "note": "sunflower"
+  },
+  "26": {
+   "name": "Linser",
+   "crop": "lentil",
+   "note": "lentils"
+  },
+  "30": {
+   "name": "Ærter",
+   "crop": "pea",
+   "note": "field peas, pea whole-crop"
+  },
+  "31": {
+   "name": "Hestebønner",
+   "crop": "faba",
+   "note": "faba (horse) beans"
+  },
+  "32": {
+   "name": "Sødlupin",
+   "crop": "lupin",
+   "note": "sweet lupin"
+  },
+  "33": {
+   "name": null,
+   "crop": "lupin",
+   "note": "sweet lupin"
+  },
+  "51": {
+   "name": "Blanding bredbladet afgrøde, frø/kerne",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "52": {
+   "name": "Quinoa",
+   "crop": "quinoa",
+   "note": "quinoa"
+  },
+  "53": {
+   "name": "Boghvede",
+   "crop": "buckwheat",
+   "note": "buckwheat"
+  },
+  "55": {
+   "name": "Vårrug",
+   "crop": "rye",
+   "note": "rye incl. hybrid rye, whole-crop, green-cut"
+  },
+  "56": {
+   "name": "Vårtriticale",
+   "crop": "triticale",
+   "note": "triticale"
+  },
+  "101": {
+   "name": "Rajgræsfrø, alm.",
+   "crop": "grassley",
+   "note": "grass grown for seed (in rotation)"
+  },
+  "102": {
+   "name": "Rajgræsfrø, alm. 1. år, efterårsudlagt",
+   "crop": "grassley",
+   "note": "grass grown for seed (in rotation)"
+  },
+  "103": {
+   "name": "Rajgr�sfr�, ital.",
+   "crop": "grassley",
+   "note": "grass grown for seed (in rotation)"
+  },
+  "104": {
+   "name": "Rajgr�sfr�, ital. 1. �r efter�rsudlagt",
+   "crop": "grassley",
+   "note": "grass grown for seed (in rotation)"
+  },
+  "105": {
+   "name": "Timothefrø",
+   "crop": "grassley",
+   "note": "grass grown for seed (in rotation)"
+  },
+  "106": {
+   "name": "Hundegræsfrø",
+   "crop": "grassley",
+   "note": "grass grown for seed (in rotation)"
+  },
+  "107": {
+   "name": "Engsvingelfrø",
+   "crop": "grassley",
+   "note": "grass grown for seed (in rotation)"
+  },
+  "108": {
+   "name": "Rødsvingelfrø",
+   "crop": "grassley",
+   "note": "grass grown for seed (in rotation)"
+  },
+  "109": {
+   "name": "Rajsvingelfrø",
+   "crop": "grassley",
+   "note": "grass grown for seed (in rotation)"
+  },
+  "110": {
+   "name": "Svingelfrø, bakke- (tidl. Stivbladet)",
+   "crop": "grassley",
+   "note": "grass grown for seed (in rotation)"
+  },
+  "111": {
+   "name": "Svingelfrø, strand-",
+   "crop": "grassley",
+   "note": "grass grown for seed (in rotation)"
+  },
+  "112": {
+   "name": "Engrapgræsfrø (marktype)",
+   "crop": "grassley",
+   "note": "grass grown for seed (in rotation)"
+  },
+  "113": {
+   "name": "Engrapsgræsfrø (plænetype)",
+   "crop": "grassley",
+   "note": "grass grown for seed (in rotation)"
+  },
+  "116": {
+   "name": "Rajgræs, hybrid",
+   "crop": "grassley",
+   "note": "grass grown for seed (in rotation)"
+  },
+  "117": {
+   "name": "Rajgræs, efterårsudl. hybrid",
+   "crop": "grassley",
+   "note": "grass grown for seed (in rotation)"
+  },
+  "120": {
+   "name": "Kløverfrø",
+   "crop": "clover",
+   "note": "clover grown for seed"
+  },
+  "123": {
+   "name": "Valmuefrø",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "124": {
+   "name": "Spinatfrø",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "149": {
+   "name": "Kartofler, lægge- (certificerede)",
+   "crop": "potato",
+   "note": "potatoes of every use"
+  },
+  "150": {
+   "name": "Kartofler, lægge- (egen opformering)",
+   "crop": "potato",
+   "note": "potatoes of every use"
+  },
+  "151": {
+   "name": "Kartofler, stivelses-",
+   "crop": "potato",
+   "note": "potatoes of every use"
+  },
+  "152": {
+   "name": "Kartofler, spise-",
+   "crop": "potato",
+   "note": "potatoes of every use"
+  },
+  "153": {
+   "name": "Kartofler, andre",
+   "crop": "potato",
+   "note": "potatoes of every use"
+  },
+  "155": {
+   "name": "Kartofler, pulver/granules-",
+   "crop": "potato",
+   "note": "potatoes of every use"
+  },
+  "156": {
+   "name": "Kartofler, friteret/chips/pommes frites",
+   "crop": "potato",
+   "note": "potatoes of every use"
+  },
+  "157": {
+   "name": "Kartofler, spise- tidligt høstede med efterafgrøde",
+   "crop": "potato",
+   "note": "potatoes of every use"
+  },
+  "160": {
+   "name": "Sukkerroer til fabrik",
+   "crop": "sugarbeet",
+   "note": "sugar beet for the factory (fodder beet 280 is not)"
+  },
+  "171": {
+   "name": "Lucerne, slæt",
+   "crop": "clover",
+   "note": "lucerne / clover-dominant leys (>= 50 % legumes, or lucerne-grass)"
+  },
+  "172": {
+   "name": "Lucernegræs, over 25% græs til slæt inkl. eget foder",
+   "crop": "clover",
+   "note": "lucerne / clover-dominant leys (>= 50 % legumes, or lucerne-grass)"
+  },
+  "210": {
+   "name": "Vårbyg, helsæd",
+   "crop": "barley",
+   "note": "spring/winter barley, whole-crop, green-cut"
+  },
+  "212": {
+   "name": "Vårhavre, helsæd",
+   "crop": "oats",
+   "note": "oats, whole-crop, green-cut"
+  },
+  "213": {
+   "name": "Blandkorn, vårsået, helsæd",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "214": {
+   "name": "Korn og bælgsæd, helsæd, under 50% bælgsæd",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "215": {
+   "name": "Ærtehelsæd",
+   "crop": "pea",
+   "note": "field peas, pea whole-crop"
+  },
+  "216": {
+   "name": "Silomajs",
+   "crop": "maize",
+   "note": "grain and silage maize (also undersown with grass)"
+  },
+  "217": {
+   "name": "Korn og bælgsæd, helsæd (over 50 % bælgsæd)",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "218": {
+   "name": "Silomajs med græsudlæg",
+   "crop": "maize",
+   "note": "grain and silage maize (also undersown with grass)"
+  },
+  "222": {
+   "name": "Vinterrug, helsæd",
+   "crop": "rye",
+   "note": "rye incl. hybrid rye, whole-crop, green-cut"
+  },
+  "230": {
+   "name": "Blanding af vårkorn, grønkorn",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "234": {
+   "name": "Korn og bælgsæd, grønkorn, under 50% bælgsæd",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "235": {
+   "name": "Blanding af vinterkorn, grønkorn",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "236": {
+   "name": "Græs med kløver/lucerne, under 50 % bælgpl. (omdri",
+   "crop": "grassley",
+   "note": "grass and grass-clover leys in rotation (< 50 % legumes)"
+  },
+  "247": {
+   "name": "Miljøgræs MVJ-tilsagn (0 N), omdrift",
+   "crop": "grassley",
+   "note": "grass and grass-clover leys in rotation (< 50 % legumes)"
+  },
+  "248": {
+   "name": "Permanent græs ved vandboring",
+   "crop": "grassley",
+   "note": "permanent grass (as the RPG table maps PPH)"
+  },
+  "249": {
+   "name": "Udnyttet græs ved vandboring",
+   "crop": "grassley",
+   "note": "grass and grass-clover leys in rotation (< 50 % legumes)"
+  },
+  "250": {
+   "name": "Permanent græs, meget lavt udbytte",
+   "crop": "grassley",
+   "note": "permanent grass (as the RPG table maps PPH)"
+  },
+  "251": {
+   "name": "Permanent græs, lavt udbytte",
+   "crop": "grassley",
+   "note": "permanent grass (as the RPG table maps PPH)"
+  },
+  "252": {
+   "name": "Permanent græs, normalt udbytte",
+   "crop": "grassley",
+   "note": "permanent grass (as the RPG table maps PPH)"
+  },
+  "254": {
+   "name": "Miljøgræs MVJ-tilsagn (0 N), permanent",
+   "crop": "grassley",
+   "note": "permanent grass (as the RPG table maps PPH)"
+  },
+  "255": {
+   "name": "Permanent græs, under 50% kløver/lucerne",
+   "crop": "grassley",
+   "note": "permanent grass (as the RPG table maps PPH)"
+  },
+  "256": {
+   "name": "Permanent kløvergræs, over 50% kløver/lucerne",
+   "crop": "clover",
+   "note": "lucerne / clover-dominant leys (>= 50 % legumes, or lucerne-grass)"
+  },
+  "257": {
+   "name": "Permanent græs, uden kløver",
+   "crop": "grassley",
+   "note": "permanent grass (as the RPG table maps PPH)"
+  },
+  "260": {
+   "name": "Græs med kløver/lucerne, under 50 % bælgpl. (omdrift)",
+   "crop": "grassley",
+   "note": "grass and grass-clover leys in rotation (< 50 % legumes)"
+  },
+  "261": {
+   "name": "Kløvergræs, over 50% kløver (omdrift)",
+   "crop": "clover",
+   "note": "lucerne / clover-dominant leys (>= 50 % legumes, or lucerne-grass)"
+  },
+  "262": {
+   "name": "Lucernegræs, over 50% lucerne (omdrift)",
+   "crop": "clover",
+   "note": "lucerne / clover-dominant leys (>= 50 % legumes, or lucerne-grass)"
+  },
+  "263": {
+   "name": "Græs uden kløvergræs (omdrift)",
+   "crop": "grassley",
+   "note": "grass and grass-clover leys in rotation (< 50 % legumes)"
+  },
+  "264": {
+   "name": "Græs og kløvergræs uden norm, under 50 % kløver (omdrift)",
+   "crop": "grassley",
+   "note": "grass and grass-clover leys in rotation (< 50 % legumes)"
+  },
+  "266": {
+   "name": "Græs under 50% kløver/lucerne, ekstremt lavt udbytte (omdrift)",
+   "crop": "grassley",
+   "note": "grass and grass-clover leys in rotation (< 50 % legumes)"
+  },
+  "267": {
+   "name": "Græs  under 50% kløver/lucerne, meget lavt udbytte (omdrift)",
+   "crop": "grassley",
+   "note": "grass and grass-clover leys in rotation (< 50 % legumes)"
+  },
+  "268": {
+   "name": "Græs under 50% kløver/lucerne, lavt udbytte (omdrift)",
+   "crop": "grassley",
+   "note": "grass and grass-clover leys in rotation (< 50 % legumes)"
+  },
+  "270": {
+   "name": "Græs til udegrise, omdrift",
+   "crop": "grassley",
+   "note": "grass and grass-clover leys in rotation (< 50 % legumes)"
+  },
+  "271": {
+   "name": "Rekreative formål",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "276": {
+   "name": "Permanent græs og kløvergræs uden norm, under 50 % kløver",
+   "crop": "grassley",
+   "note": "permanent grass (as the RPG table maps PPH)"
+  },
+  "280": {
+   "name": "Fodersukkerroer",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "282": {
+   "name": "Fodermarvkål",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "286": {
+   "name": "Permanent gr�s og kl�vergr�s uden norm, over 50 % kl�ver",
+   "crop": "clover",
+   "note": "lucerne / clover-dominant leys (>= 50 % legumes, or lucerne-grass)"
+  },
+  "287": {
+   "name": "Græs til udegrise, permanent",
+   "crop": "grassley",
+   "note": "permanent grass (as the RPG table maps PPH)"
+  },
+  "308": {
+   "name": "MFO-brak, sommerslåning",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "309": {
+   "name": "Udyrket areal ved vandboring",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "310": {
+   "name": "Brak, sommerslåning",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "311": {
+   "name": "Skovrejsning på tidl. landbrugsjord 1",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "312": {
+   "name": "20-årig udtagning",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "313": {
+   "name": "20-�rig udtagning af agerjord med frivillig skovrejsning",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "318": {
+   "name": "MVJ ej udtagning, ej landbrugsareal",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "319": {
+   "name": "MFO-brak, Udtagning, ej landbrugsareal",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "321": {
+   "name": "Miljøtiltag, ej landbrugsarealer",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "322": {
+   "name": "Minivådområder, projekttilsagn",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "323": {
+   "name": "MFO-udyrket areal ved vandboring",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "324": {
+   "name": "Blomsterbrak",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "325": {
+   "name": "MFO-Blomsterbrak",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "327": {
+   "name": "MFO-bræmme, sommerslåning",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "328": {
+   "name": "MFO-bræmme med blomsterblanding",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "334": {
+   "name": "MFO-bræmme, forårsslåning",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "338": {
+   "name": "Brak, forårsslåning",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "339": {
+   "name": "MFO-brak, forårsslåning",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "342": {
+   "name": "Bestøverbrak",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "343": {
+   "name": "MFO-bestøverbrak",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "344": {
+   "name": "Brak langs vandløb og søer, forårsslåning (alternativ til efterafgrøder)",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "345": {
+   "name": "Brak langs vandløb og søer, sommerslåning (alternativ til efterafgrøder)",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "361": {
+   "name": "Ikke støtteberettiget landbrugsareal",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "400": {
+   "name": "Asieagurker",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "401": {
+   "name": "Asparges",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "403": {
+   "name": "Blomk�l",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "405": {
+   "name": "Courgette, squash",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "406": {
+   "name": "Grønkål",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "407": {
+   "name": "Gulerod",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "410": {
+   "name": "Knoldselleri",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "415": {
+   "name": "Porre",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "418": {
+   "name": "Rødkål",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "420": {
+   "name": "Salat (friland)",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "421": {
+   "name": "Savoykål, spidskål",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "423": {
+   "name": "Sukkermajs",
+   "crop": "maize",
+   "note": "sweet corn - maize in a rotation, not a field crop as the truth",
+   "notTruth": true
+  },
+  "424": {
+   "name": "Ærter, konsum",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "429": {
+   "name": "Jordskokker, konsum",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "432": {
+   "name": "Krydderurter (undtagen persille og purløg)",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "434": {
+   "name": "Grøntsager, andre (friland)",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "450": {
+   "name": "Grøntsager, blandinger",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "497": {
+   "name": "Planteskolekulturer, vedplanter, til videresalg",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "499": {
+   "name": "Lukket system",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "503": {
+   "name": "En- og to-årige planter",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "504": {
+   "name": "Solbær, stiklingeopformering",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "512": {
+   "name": "Rabarber",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "513": {
+   "name": "Jordbær",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "514": {
+   "name": "Solbær",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "515": {
+   "name": "Ribs",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "516": {
+   "name": "Stikkelsbær",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "518": {
+   "name": "Hindbær",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "520": {
+   "name": "Surkirsebær uden undervækst af græs",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "523": {
+   "name": "Blomme med undervækst af græs",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "524": {
+   "name": "Sødkirsebær uden undervækst af græs",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "525": {
+   "name": "Sødkirsebær med undervækst af græs",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "528": {
+   "name": "Æbler",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "529": {
+   "name": "Pærer",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "530": {
+   "name": "Vindrue",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "531": {
+   "name": "Anden træfrugt",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "538": {
+   "name": "Kastanje (�gte)",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "539": {
+   "name": "Blandet frugt",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "544": {
+   "name": "Snitblomster og snitgrønt",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "547": {
+   "name": "Planteskolekulturer, stauder",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "553": {
+   "name": "Centnergræskar",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "564": {
+   "name": "Containerplads",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "565": {
+   "name": "Skovrejsning, direktivimplementerende uden tilsagn",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "575": {
+   "name": "Skovrejsning (privat) ? kulstofbinding og grundvandsbeskyttelse",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "577": {
+   "name": "Skov med biodiversitetsformål",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "578": {
+   "name": "Skovrejsning (privat) ? forbedring af vandmiljø og grundvandsbeskyttelse",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "580": {
+   "name": "Skovdrift, alm.",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "581": {
+   "name": "Nyplantning i skov med træhøjde under 3 m",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "583": {
+   "name": "Juletræer og pyntegrønt på landbrugsjord",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "585": {
+   "name": "Skovrejsning i projektområde, som ikke er omfattet af tilsagn",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "587": {
+   "name": "Skovrejsning på tidl. landbrugsjord 3",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "589": {
+   "name": "Bæredygtig skovdrift",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "591": {
+   "name": "Lavskov",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "592": {
+   "name": "Pil",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "593": {
+   "name": "Poppel (0-100 andre træer pr. ha)",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "597": {
+   "name": "Rørgræs",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "599": {
+   "name": "Poppel (100-400 andre tr�er pr. ha)",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "602": {
+   "name": "MFO - Pil",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "603": {
+   "name": "MFO - Poppel",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "605": {
+   "name": "MFO - Lavskov",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "651": {
+   "name": "Dildfrø",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "652": {
+   "name": "Kinesisk kålfrø",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "653": {
+   "name": "Karsefrø",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "658": {
+   "name": "Gulerodsfrø",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "661": {
+   "name": "Kørvelfrø",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "666": {
+   "name": "Purløgsfrø",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "668": {
+   "name": "Blomsterfrø",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "701": {
+   "name": "Grønkorn af vårbyg",
+   "crop": "barley",
+   "note": "spring/winter barley, whole-crop, green-cut"
+  },
+  "702": {
+   "name": "Grønkorn af vårhvede",
+   "crop": "wheat",
+   "note": "spring/winter (bread) wheat, spelt, green-cut"
+  },
+  "703": {
+   "name": "Grønkorn af vårhavre",
+   "crop": "oats",
+   "note": "oats, whole-crop, green-cut"
+  },
+  "704": {
+   "name": "Grønkorn af vårrug",
+   "crop": "rye",
+   "note": "rye incl. hybrid rye, whole-crop, green-cut"
+  },
+  "707": {
+   "name": "Grønkorn af vinterhvede",
+   "crop": "wheat",
+   "note": "spring/winter (bread) wheat, spelt, green-cut"
+  },
+  "709": {
+   "name": "Grønkorn af vinterrug",
+   "crop": "rye",
+   "note": "rye incl. hybrid rye, whole-crop, green-cut"
+  },
+  "903": {
+   "name": "Lysåbne arealer i skov",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "907": {
+   "name": "Naturarealer, økologisk jordbrug",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  },
+  "921": {
+   "name": "Intern kode: Bar jord",
+   "crop": null,
+   "note": "not a crop the engine ranks (mix, fallow, margin, forest, vegetable, fruit, nursery, seed of a vegetable or flower, energy crop, nature) or not seen"
+  }
+ }
+}
