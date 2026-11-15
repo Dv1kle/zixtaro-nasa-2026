@@ -1,0 +1,94 @@
+{
+ "en": {
+  "orbit": {
+   "title": "From orbit to root zone",
+   "caption": "This is {place}. Everything that follows is computed from NASA data for this exact spot.",
+   "voice": "Welcome to Zixtaro. Pick any field on Earth. Everything you see is computed from NASA data for that exact spot."
+  },
+  "stripes": {
+   "title": "45 years of this field",
+   "caption": "Every stripe is one year of NASA POWER since 1981 - the blue gives way to red, the water balance turns brown.",
+   "voice": "Every stripe is one year of NASA POWER data since nineteen eighty-one. Watch the blue give way to red. This field is warming, and drying."
+  },
+  "field": {
+   "title": "The farmer stays in the loop",
+   "caption": "Five seasons of history - the one thing satellites can’t reliably see yet.",
+   "voice": "The farmer adds five seasons of history. It is the one thing satellites cannot reliably see yet."
+  },
+  "roots": {
+   "title": "Down to the roots",
+   "caption": "ISRIC SoilGrids: how much water this soil holds within reach of each crop’s roots.",
+   "voice": "Down to the roots. Soil Grids tells us how much water this soil can hold, within reach of each crop."
+  },
+  "pick": {
+   "title": "Next season: {crop}",
+   "caption": "Every score splits into soil, water, profit and site fit, and every point lost has a named reason.",
+   "voice": "Here is the recommendation for next season. Every score splits into soil, water, profit and site fit, and every lost point has a reason."
+  },
+  "dial": {
+   "title": "The season on one dial",
+   "caption": "When the crop is thirstiest, when frost ends, when heat bites - and where today sits.",
+   "voice": "The season dial shows when the crop is thirstiest, when frost ends, and when heat could hurt it."
+  },
+  "future": {
+   "title": "And in the 2050s?",
+   "caption": "NASA NEX-GDDP-CMIP6 projections re-run the whole plan, month by month, under SSP2-4.5.",
+   "voice": "And the future? NASA's downscaled climate projections re-run the whole plan for the twenty-fifties, month by month."
+  },
+  "warmer": {
+   "title": "And 2 °C warmer?",
+   "caption": "The whole plan re-runs in a warmer climate, with evaporation recomputed.",
+   "voice": "What if it gets two degrees warmer? The whole plan re-runs, with evaporation recomputed."
+  },
+  "backtest": {
+   "title": "Would it have worked?",
+   "caption": "Re-run on this field’s own past seasons with only the data a farmer had at the time.",
+   "voice": "Would it have worked? Zixtaro replays this field's own past seasons, using only the data a farmer had at the time."
+  },
+  "greenhouse": {
+   "title": "Greenhouses too",
+   "caption": "The same NASA sunlight and air temperature price the light, heat and rainwater under glass, month by month.",
+   "voice": "Greenhouses too. The same NASA sunlight and temperature price the light, the heating and the rainwater, month by month."
+  },
+  "end": {
+   "title": "Your field next",
+   "caption": "Drop a pin or outline any field on Earth - and add it to your farm.",
+   "voice": "Now it is your turn. Drop a pin on your own field, and add it to your farm."
+  },
+  "decision": {
+   "title": "One card, one decision",
+   "caption": "The pick, its runner-up, how sure the engine is and what would change its mind - on one screen.",
+   "voice": "Everything a farmer needs for the decision sits on one card: the pick, the runner-up, how sure we are, and what would change our mind."
+  },
+  "local": {
+   "title": "What the neighbours grow",
+   "caption": "CROPGRIDS shows what farms around this field actually grow - a reality check, never part of the score.",
+   "voice": "Next to our ranking, a global crop census shows what farms around here actually grow. If nobody grows our pick, the card says so: buyers and know-how matter."
+  },
+  "sure": {
+   "title": "How sure - and why",
+   "caption": "Hundreds of runs vary soil, weather, prices and priorities. Sobol indices name the input that matters most.",
+   "voice": "We rerun the decision hundreds of times, varying the soil, the weather, prices and the farmer's priorities. The share of wins is the confidence, and it was checked against what really happened on past fields."
+  },
+  "evidence": {
+   "title": "What the pick rests on",
+   "caption": "Ten questions: the NASA data behind it, the soil, the rules, the sources - and where the science is only a rule of thumb.",
+   "voice": "Every recommendation answers ten questions: which NASA observation moved it, which soil, which rules, and which numbers are published science and which are only rules of thumb."
+  },
+  "validity": {
+   "title": "Where the model stops",
+   "caption": "Twenty-two known failure modes, checked for this field - the tool says when it should not be trusted.",
+   "voice": "A good tool knows its limits. We list twenty-two ways this model can fail, and check each one for this field."
+  },
+  "soilhealth": {
+   "title": "Soil over the years",
+   "caption": "Carbon, nitrogen, erosion and nitrate leaching across the rotation - from IPCC relations, RUSLE and FAO methods.",
+   "voice": "The rotation is also judged by what it leaves in the soil: carbon, nitrogen, erosion and nitrate lost over winter."
+  },
+  "ghsure": {
+   "title": "Under glass, other risks",
+   "caption": "Here the risk is money for energy: re-runs vary gas and crop prices, and the panel names the price at which the pick changes.",
+   "voice": "Under glass the risks are different. The soil barely matters; the gas bill and the crop's price do. We rerun the plan with different energy and crop prices, and show the price at which another crop would win."
+  }
+ }
+}
